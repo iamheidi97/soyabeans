@@ -15,21 +15,17 @@
     >
       <!-- Text slides with image -->
       <b-carousel-slide
-        caption="First slide"
+        caption="First slide" 
         text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="https://picsum.photos/1024/480/?image=52"
+        img-src="..\assets\images\IMG-1523.JPG.png"
       ></b-carousel-slide>
 
-      <!-- Slides with custom text -->
-      <b-carousel-slide img-src="..\assets\images\IMG-1540.jpg">
+      <b-carousel-slide src="C:\Users\Windsgate\Desktop\website\soya project\soyabeans\src\assets\images\IMG-1540.jpg">
         <h1>Hello world!</h1>
       </b-carousel-slide>
 
-      <!-- Slides with image only -->
-      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=58"></b-carousel-slide>
+      <b-carousel-slide img-src=""></b-carousel-slide>
 
-      <!-- Slides with img slot -->
-      <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
       <b-carousel-slide>
         <template v-slot:img>
           <img
