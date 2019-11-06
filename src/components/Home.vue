@@ -21,7 +21,7 @@
       ></b-carousel-slide>
 
       <!-- Slides with custom text -->
-      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=54">
+      <b-carousel-slide img-src="..\assets\images\IMG-1540.jpg">
         <h1>Hello world!</h1>
       </b-carousel-slide>
 
