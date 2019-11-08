@@ -15,9 +15,9 @@
     >
       <!-- Text slides with image -->
       <b-carousel-slide
-        caption="First slide" 
+        caption="First slide"
         text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="..\assets\images\IMG-1523.JPG.png"
+        img-src="`${publicPath}images/image2.jpg`"
       ></b-carousel-slide>
 
       <b-carousel-slide src="C:\Users\Windsgate\Desktop\website\soya project\soyabeans\src\assets\images\IMG-1540.jpg">
@@ -57,8 +57,9 @@
       export default {
     data () {
       return {
+        publicPath: process.env.BASE_URL,
         slide: 0,
-        sliding: null
+        sliding: null,
       }
     },
     methods: {

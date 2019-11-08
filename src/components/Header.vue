@@ -1,6 +1,6 @@
 <template>
   <div class="my-header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+    <nav class="navbar navbar-expand-lg navbar-light bg-lightgreen border-bottom">
       <div>
         <a class="navbar-brand d-none d-md-inline">
         <img class="img-responsive mr-2" id="nav-logo" src="../assets/soyalogo.png" />
