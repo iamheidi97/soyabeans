@@ -22,7 +22,7 @@
                 <p>Planning to visit Japan? Kniw Enough japanese to get around Jpaan and interact with the locals.</p>
                 <p>You will be taught the basic writing conventions (Hiragana and Katakana) and useful expressions in Japanese. You willalso be given insights on the Japanese culture.</p>
                 <hr> 
-                <p class="card-foo align-text-bottom">2 -our sessions every Wednesday & Friday for 4 weeks</p>
+                <p class="card-foo align-text-bottom">2 -hour sessions every Wednesday & Friday for 4 weeks</p>
             </b-card-text>
         </b-card>
         <b-card border-variant="light" header="Hobbyist/Otaku Course" class="text-center">
@@ -42,7 +42,7 @@
                 <p>Learn how to speak and write formally in Japanese, the do's and dont's when dealing with Japanese clients and more.</p>
                 <hr>
             </b-card-text>
-            <div class="card-foo align-text-bottom">
+            <div class="card-foo d-flex align-items-end">
               <p>Schedules may be flexible</p>
             </div>
         </b-card>
