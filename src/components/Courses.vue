@@ -34,7 +34,7 @@
               <small class="text-muted">Beginner to Intermediate</small>
               <h3 class="mb-0 my-3 font-weight-bolder">Hobbyist / Otaku Course</h3>
             </template>
-            <b-card-text>
+            <b-card-text class="px-4">
               <p>Do you admire Japan's culture? Or do you want to watch ani,e or manga without having to wait for subtitles? This course is for you.</p>
               <p>Conversational Japnese will be taught to you. Test your Japanese and immerse yourself by reading our wide ccollection of mangas and anime related materials.</p>
             </b-card-text>
@@ -44,9 +44,12 @@
           </b-card>
         </div>
         <div class="col-3">
-          <b-card border-variant="light" header="Business Course" class="text-center h-100">
-            <b-card-text><small>Intermediate</small></b-card-text>
-            <b-card-text>
+          <b-card border-variant="light" class="text-center h-100">
+            <template v-slot:header>
+              <small class="text-muted">Beginner to Intermediate</small>
+              <h3 class="mb-0 my-3 font-weight-bolder">Business Course</h3>
+            </template>
+            <b-card-text class="px-4">
               <p>Dealing with Japanese clients most of the time? Impress them with your Japanese with this course.</p>
               <p>Learn how to speak and write formally in Japanese, the do's and dont's when dealing with Japanese clients and more.</p>
             </b-card-text>
@@ -57,13 +60,15 @@
         </div>
         <div class="col-3">
           
-          <b-card border-variant="light" header="JLPT Course" class="text-center h-100">
-            <b-card-text><small>Beginner</small></b-card-text>
-            <b-card-text>
+          <b-card border-variant="light" class="text-center h-100">
+            <template v-slot:header>
+              <small class="text-muted">Beginner to Advanced</small>
+              <h3 class="mb-0 my-3 font-weight-bolder">JLPT Course</h3>
+            </template>
+            <b-card-text class="px-4">
                 <p>Do you already have plans to go to work to Japan? Certification exams increase your chances of achieving those dreams.</p>
                 <p>You will be taught Japanese in accordance to the strucutre of the JLPT Exams. Test yourself with mock tests that will be provided to assessyour Japanese.</p>
-                <p>N5, N4, N5+N4, N3, N2</p>
-                <p>Courses are available.</p>
+                <p><strong>N5, N4, N5+N4, N3, and N2</strong> courses are available.</p>
               </b-card-text>
               <template v-slot:footer>
                 <p class="my-3">2-hour sessions every Tuesday & Thursday <br>for 12 weeks</p>
@@ -88,7 +93,7 @@
     div.card-header {
       font-size: 20px;
       font-weight: bolder;
-      color: #54aa67;
+      color: #158C39;
     }
     div.card-body,
     div.card-header {
@@ -96,7 +101,7 @@
     }
     .card-foo {
       font-weight: bolder;
-      color: #54aa67;
+      color: #158C39;
       bottom: 0;
     }
     .btn-lg {
