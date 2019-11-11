@@ -10,7 +10,7 @@
             <p class="text-right">Not only can we teach you the Japanese language, we can also help you learn more about the Japanese culture, places to go and must-try cuisines.</p>
           </div>
           <div class="col-5">
-            <h1 class="display-1 text-left">1</h1>
+            <h1 class="display-1 text-left circle-behind">1</h1>
           </div>          
         </div>
         <div class="row justify-content-center my-5">
@@ -37,7 +37,17 @@
 <script>
 </script>
 <style scoped>
-.my-why {
-  height: 100vh;
-}
+    .circle-behind {
+        background: #ffc0c0;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 100px;
+        vertical-align: middle;
+    }
+    .my-why {
+      height: 100vh;
+
+    }
 </style>
