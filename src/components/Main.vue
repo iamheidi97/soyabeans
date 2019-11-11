@@ -3,8 +3,8 @@
         <Header/>
         <Home/>
         <SoyaDescription/>
-        <Courses/>
         <Why/>
+        <Courses/>
         <Footer/>
     </div>
 </template>
