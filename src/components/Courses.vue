@@ -98,6 +98,7 @@
     div.card-body,
     div.card-header {
       background-color: #fffbe5;
+      border-bottom: none;
     }
     .card-foo {
       font-weight: bolder;
