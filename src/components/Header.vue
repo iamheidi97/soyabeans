@@ -32,7 +32,7 @@
 }
 #nav-logo {
   height: 60px;
-  width: auto;
+
 }
 a{
   margin-left: 1rem;
