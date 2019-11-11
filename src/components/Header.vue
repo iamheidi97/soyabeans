@@ -29,7 +29,6 @@
 
 .my-header {
   font-family: "Montserrat", sans-serif;
-  height: 100vh;
 }
 #nav-logo {
   height: 60px;

@@ -1,5 +1,6 @@
 <template>
     <div class="my-courses">
+        
     </div>
 </template>
 <script>
