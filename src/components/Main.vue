@@ -1,10 +1,11 @@
 <template>
-    <div>
+    <div class="">
         <Header/>
         <Home/>
         <SoyaDescription/>
         <Why/>
         <Courses/>
+        <Faqs/>
         <Footer/>
     </div>
 </template>
@@ -14,6 +15,7 @@ import Home from './Home'
 import SoyaDescription from './SoyaDescription'
 import Why from './Why'
 import Courses from './Courses'
+import Faqs from './Faqs'
 import Footer from './Footer'
 
 export default {
@@ -23,11 +25,12 @@ export default {
       SoyaDescription,
       Why,
       Courses,
+      Faqs,
       Footer
   }
 }
 </script>
-<style scoped>
+<style>
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
     body {

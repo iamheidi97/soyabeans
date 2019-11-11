@@ -1,17 +1,17 @@
 <template>
   <div class="my-header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-lightgreen border-bottom">
+    <nav class="navbar navbar-expand-lg dusty-grass-gradient border-bottom">
       <div>
         <a class="navbar-brand d-none d-md-inline">
         <img class="img-responsive mr-2" id="nav-logo" src="../assets/soyalogo.png" />
-        <label class="font-weight-bold">Soya Beans Japanese Language School</label>
+        <label class="h-title font-weight-bold">Soya Beans Japanese Language School</label>
       </a>
       </div>
       
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav class="ml-auto font-weight-bold mr-5">
+        <b-navbar-nav class="ml-auto mr-5">
           <b-nav-item href="#">Home</b-nav-item>
           <b-nav-item href="#">Why Choose Us</b-nav-item>
           <b-nav-item href="#">Courses</b-nav-item>
@@ -34,7 +34,18 @@
   height: 60px;
 
 }
-a{
+a.nav-link{
   margin-left: 1rem;
+  color: #54aa67;
+  font-weight: bold;
+}
+a.nav-link :hover{
+  transition: all 0.3s ease 0s;
+  color: yellow;
+  text-decoration: underline;
+  size: 3rem;
+}
+.h-title{
+  color: #54aa67;
 }
 </style>
