@@ -17,14 +17,14 @@
           <b-card border-variant="light" class="text-center h-100">
             <template v-slot:header>
               <small class="text-muted">Beginner</small>
-              <h3 class="mb-0 my-3 font-weight-bolder">Tourist / Travel Course</h3>
+              <h2 class="mb-0 my-3 font-weight-bold">Tourist / Travel<br> Course</h2>
             </template>
             <b-card-text class="px-4"> 
               <p>Planning to visit Japan? Know Enough Japanese to get around Japan and interact with the locals.</p>
               <p>You will be taught the basic writing conventions (Hiragana and Katakana) and useful expressions in Japanese. You willalso be given insights on the Japanese culture.</p>
             </b-card-text>
             <template v-slot:footer>
-                <p class="my-3">2-hour sessions every Wednesday & Friday <br>for 4 weeks<br></p>
+                <p class="my-3">2-hour sessions<br>every Wednesday & Friday <br>for 4 weeks<br></p>
             </template>
           </b-card>
         </div>
@@ -32,14 +32,14 @@
           <b-card border-variant="light" class="text-center h-100">
             <template v-slot:header>
               <small class="text-muted">Beginner to Intermediate</small>
-              <h3 class="mb-0 my-3 font-weight-bolder">Hobbyist / Otaku Course</h3>
+              <h2 class="mb-0 my-3 font-weight-bold">Hobbyist / Otaku<br>Course</h2>
             </template>
             <b-card-text class="px-4">
               <p>Do you admire Japan's culture? Or do you want to watch ani,e or manga without having to wait for subtitles? This course is for you.</p>
               <p>Conversational Japnese will be taught to you. Test your Japanese and immerse yourself by reading our wide ccollection of mangas and anime related materials.</p>
             </b-card-text>
             <template v-slot:footer>
-                <p class="my-3">1.5-hour sessions every Tuesday & Thursday <br>for 4 weeks<br></p>
+                <p class="my-3">1.5-hour sessions<br>every Tuesday & Thursday <br>for 4 weeks<br></p>
             </template>
           </b-card>
         </div>
@@ -47,14 +47,14 @@
           <b-card border-variant="light" class="text-center h-100">
             <template v-slot:header>
               <small class="text-muted">Beginner to Intermediate</small>
-              <h3 class="mb-0 my-3 font-weight-bolder">Business Course</h3>
+              <h2 class="mb-0 my-3 font-weight-bold">Business<br>Course</h2>
             </template>
             <b-card-text class="px-4">
               <p>Dealing with Japanese clients most of the time? Impress them with your Japanese with this course.</p>
               <p>Learn how to speak and write formally in Japanese, the do's and dont's when dealing with Japanese clients and more.</p>
             </b-card-text>
             <template v-slot:footer>
-                <p class="my-3">Schedules may be flexible. <br>Please contact us for consultation.<br></p>
+                <p class="my-3">Schedules may be flexible. <br>Please contact us <br>for consultation.<br></p>
             </template>
           </b-card>
         </div>
@@ -63,7 +63,7 @@
           <b-card border-variant="light" class="text-center h-100">
             <template v-slot:header>
               <small class="text-muted">Beginner to Advanced</small>
-              <h3 class="mb-0 my-3 font-weight-bolder">JLPT Course</h3>
+              <h2 class="mb-0 my-3 font-weight-bold">JLPT<br>Course</h2>
             </template>
             <b-card-text class="px-4">
                 <p>Do you already have plans to go to work to Japan? Certification exams increase your chances of achieving those dreams.</p>
@@ -71,7 +71,7 @@
                 <p><strong>N5, N4, N5+N4, N3, and N2</strong> courses are available.</p>
               </b-card-text>
               <template v-slot:footer>
-                <p class="my-3">2-hour sessions every Tuesday & Thursday <br>for 12 weeks</p>
+                <p class="my-3">2-hour sessions <br>every Tuesday & Thursday <br>for 12 weeks</p>
               </template>
           </b-card>
         </div>
@@ -99,6 +99,11 @@
     div.card-header {
       background-color: #fffbe5;
       border-bottom: none;
+    }
+    .card-footer {
+      border-top: none;
+      font-weight: bolder;
+      color: #158C39; 
     }
     .card-foo {
       font-weight: bolder;

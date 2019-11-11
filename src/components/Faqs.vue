@@ -1,5 +1,5 @@
 <template>
-  <div class="my-faqs mx-5">
+  <div class="my-faqs">
     <div class="row justify-content-center">
       <div class="col-5">
         <div role="tablist">
@@ -69,7 +69,7 @@
           </b-card>
         </div>
       </div>
-      <div class="ml-5 col-4 align-self-center">
+      <div class="ml-5 col-4 align-self-end">
         <div role="tablist">
           <form class="p-5">
             <h2 class="font-weight-bolder">BOOK YOUR FREE DEMO TODAY</h2>
@@ -101,7 +101,8 @@
 </script>
 <style scoped>
     .my-faqs {
-      height: 100vh;
+      margin-top: 10em;
+      margin-bottom: 7em;
     }
     form {
       background-color: #fffbe5;

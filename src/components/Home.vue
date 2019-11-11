@@ -1,5 +1,5 @@
 <template>
-     <div>
+  <div>
     <b-carousel
       id="carousel-1"
       v-model="slide"
@@ -21,9 +21,9 @@
             class="d-block img-fluid w-100"
             width="1024"
             height="480"
-            src="../assets/images/castle2.jpg"
+            src="../assets/images/castle3.jpg"
             alt="image slot"
-          >
+          />
         </template>
       </b-carousel-slide>
 
@@ -37,7 +37,7 @@
             alt="image slot"
           >
         </template>
-      </b-carousel-slide> -->
+      </b-carousel-slide>-->
 
       <b-carousel-slide>
         <template v-slot:img>
@@ -45,53 +45,55 @@
             class="d-block img-fluid w-100"
             width="1024"
             height="480"
-            src="../assets/images/anime.jpg"
+            src="../assets/images/anime3.jpg"
             alt="image slot"
-          >
+          />
         </template>
       </b-carousel-slide>
-
     </b-carousel>
 
     <p class="mt-4 d-none">
-      Slide #: {{ slide }}<br>
+      Slide #: {{ slide }}
+      <br />
       Sliding: {{ sliding }}
     </p>
   </div>
 </template>
 <script>
-      export default {
-    data () {
-      return {
-        publicPath: process.env.BASE_URL,
-        slide: 0,
-        sliding: null,
-      }
+// import Jumbotron from "./Jumbotron";
+
+export default {
+  data() {
+    return {
+      publicPath: process.env.BASE_URL,
+      slide: 0,
+      sliding: null
+    };
+  },
+  // components: {
+  //   Jumbotron
+  // },
+  methods: {
+    // eslint-disable-next-line no-unused-vars
+    onSlideStart(slide) {
+      this.sliding = true;
     },
-    methods: {
-      // eslint-disable-next-line no-unused-vars
-      onSlideStart (slide) {
-        this.sliding = true
-      },
-      // eslint-disable-next-line no-unused-vars
-      onSlideEnd (slide) {
-        this.sliding = false
-      }
+    // eslint-disable-next-line no-unused-vars
+    onSlideEnd(slide) {
+      this.sliding = false;
     }
   }
+};
 </script>
 <style scoped>
-.my-home{
-  background-position: center; 
+.my-home {
+  background-position: center;
   overflow: hidden;
   box-sizing: border-box;
   height: 100vh;
 }
-.carousel-item{
+.carousel-item {
   overflow: hidden;
   box-sizing: border-box;
-  min-height: 100%;
-  max-height: 100%;
-  max-width: 100%;
 }
 </style>
