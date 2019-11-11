@@ -1,24 +1,28 @@
 <template>
-  <div class="my-courses mx-3">
-      <div>
-          <h1>Courses Available</h1>
+  <div class="my-courses m-5">
+      <div class="my-5">
+          <h1 class="font-weight-bolder display-4">Courses Available</h1>
          </div>
-      <div>
-          <p class="text-left">
-              With our experienced native Japanese instructor she will support your learning to widen your career opportunity and unlock one of the world's largest economy and its distinctive culture.
-          </p>
-          <p class="text-left">
-              We also cater one-on-one or group classes.
-          </p>
+      <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-11">
+                <p class="text-left">
+                With our experienced native Japanese instructor she will support your learning to widen your career opportunity and unlock one of the world's largest economy and its distinctive culture.
+                </p>
+                <p class="text-left">
+                    We also cater one-on-one or group classes.
+                </p>
+            </div>
+          </div>
         </div>
     <div class="mt-3">
       <b-card-group deck class="mb-3">
-        <b-card border-variant="light" header="Tourist/Travel Course" class="text-center">
+        <b-card border-variant="light" header="Tourist/Travel Course" class="text-center mx-5">
             <b-card-text>
                 <p>Planning to visit Japan? Kniw Enough japanese to get around Jpaan and interact with the locals.</p>
                 <p>You will be taught the basic writing conventions (Hiragana and Katakana) and useful expressions in Japanese. You willalso be given insights on the Japanese culture.</p>
-                <hr>
-                <p>2 -our sessions every Wednesday & Friday for 4 weeks</p>
+                <hr> 
+                <p class="card-foo align-text-bottom">2 -our sessions every Wednesday & Friday for 4 weeks</p>
             </b-card-text>
         </b-card>
         <b-card border-variant="light" header="Hobbyist/Otaku Course" class="text-center">
@@ -26,16 +30,21 @@
                 <p>Do you admire Japan's culture? Or do you want to watch ani,e or manga without having to wait for subtitles? This course is for you.</p>
                 <p>Conversational Japnese will be taught to you. Test your Japanese and immerse yourself by reading our wide ccollection of mangas and anime related materials.</p>
                 <hr>
-                <p>1.5-hour sessions every Tuesday & Thursday for 4 weeks</p>
             </b-card-text>
+            <div class="card-foo align-text-bottom">
+                <p>1.5-hour sessions every Tuesday & Thursday for 4 weeks</p>
+            </div>
+            
         </b-card>
         <b-card border-variant="light" header="Business Course" class="text-center">
           <b-card-text>
                 <p>Dealing with Japanese clients most of the time? Impress them with your Japanese with this course.</p>
                 <p>Learn how to speak and write formally in Japanese, the do's and dont's when dealing with Japanese clients and more.</p>
                 <hr>
-                <p>Schedules may be flexible</p>
             </b-card-text>
+            <div class="card-foo align-text-bottom">
+              <p>Schedules may be flexible</p>
+            </div>
         </b-card>
         <b-card border-variant="light" header="JLPT Course" class="text-center">
           <b-card-text>
@@ -44,7 +53,9 @@
                 <p>N5, N4, N5+N4, N3, N2</p>
                 <p>Courses are available.</p>
                 <hr>
-                <p>2-hour sessions every Tuesday & Thursday for 12 weeks</p>
+                <div class="card-foo align-text-bottom">
+                  <p>2-hour sessions every Tuesday & Thursday for 12 weeks</p>
+                </div>
             </b-card-text>
         </b-card>
       </b-card-group>
@@ -54,9 +65,21 @@
 </template>
 <script>
 </script>
-<style>
+<style scoped>
 .my-courses {
   height: 100vh;
 }
 
+div.card-header{
+  font-size: 20px;
+  font-weight: bolder;
+  color: #54aa67;
+}
+div.card-body, div.card-header{
+  background-color: #fffbe5;
+}
+.card-foo{
+  font-weight: bolder;
+  color: #54aa67;
+}
 </style>

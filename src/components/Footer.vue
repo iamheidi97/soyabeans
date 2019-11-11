@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="my-footer mt-10rem">
     <div class="contact">
       <i class="fas fa-phone-alt"></i>
     </div>
-    <!-- <div class="my-map">
+    <div class="my-map">
       <div class="mapouter">
         <div class="gmap_canvas">
           <iframe
@@ -13,15 +13,20 @@
             scrolling="no"
             marginheight="0"
             marginwidth="0"
-            height="500px"
+            height="300px"
             width="600px"
           ></iframe>
         </div>
       </div>
-    </div> -->
+    </div>
   </div>
 </template>
 <script>
 </script>
-<style>
+<style scoped>
+my-footer{
+  height: 100vh;
+  position: relative;
+  bottom: 0;
+}
 </style>

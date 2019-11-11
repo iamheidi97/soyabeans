@@ -27,9 +27,11 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
     body {
-        font-style: Montserrat, sans-serif !important;
+        font-family: "Montserrat", sans-serif !important;
     }
 
 </style>

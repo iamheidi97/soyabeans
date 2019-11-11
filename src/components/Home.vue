@@ -14,23 +14,6 @@
       @sliding-end="onSlideEnd"
     >
       <!-- Text slides with image -->
-      <b-carousel-slide>
-        <template v-slot:img>
-          <img
-            class="d-block img-fluid w-100"
-            width="1024"
-            height="480"
-            src="images/image2.jpg"
-            alt="image slot"
-          >
-        </template>
-      </b-carousel-slide>
-
-      <b-carousel-slide src="C:\Users\Windsgate\Desktop\website\soya project\soyabeans\src\assets\images\IMG-1540.jpg">
-        <h1>Hello world!</h1>
-      </b-carousel-slide>
-
-      <b-carousel-slide img-src=""></b-carousel-slide>
 
       <b-carousel-slide>
         <template v-slot:img>
@@ -53,7 +36,7 @@
       </b-carousel-slide>
     </b-carousel>
 
-    <p class="mt-4">
+    <p class="mt-4 d-none">
       Slide #: {{ slide }}<br>
       Sliding: {{ sliding }}
     </p>
@@ -80,8 +63,9 @@
     }
   }
 </script>
-<style>
+<style scoped>
 .my-home{
     height: 100vh;
 }
+
 </style>
