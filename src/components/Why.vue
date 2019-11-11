@@ -5,7 +5,7 @@
     </h3>
     <div class="container">
         <div class="row justify-contents-center">
-          <div class="col-7">
+          <div class="col-7 align-self-center">
             <p class="mb-0 text-right"><strong>Get fast results with our native Japanese sensei.</strong></p>
             <p class="text-right">Not only can we teach you the Japanese language, we can also help you learn more about the Japanese culture, places to go and must try cuisine</p>
           </div>

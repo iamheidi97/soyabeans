@@ -3,7 +3,7 @@
     <div class="contact">
       <i class="fas fa-phone-alt"></i>
     </div>
-    <div class="my-map">
+    <!-- <div class="my-map">
       <div class="mapouter">
         <div class="gmap_canvas">
           <iframe
@@ -18,7 +18,7 @@
           ></iframe>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="my-courses">
+  <div class="my-courses mx-3">
       <div>
           <h1>Courses Available</h1>
          </div>
