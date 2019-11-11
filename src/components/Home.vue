@@ -14,11 +14,17 @@
       @sliding-end="onSlideEnd"
     >
       <!-- Text slides with image -->
-      <b-carousel-slide
-        caption="First slide"
-        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="`${publicPath}images/image2.jpg`"
-      ></b-carousel-slide>
+      <b-carousel-slide>
+        <template v-slot:img>
+          <img
+            class="d-block img-fluid w-100"
+            width="1024"
+            height="480"
+            src="images/image2.jpg"
+            alt="image slot"
+          >
+        </template>
+      </b-carousel-slide>
 
       <b-carousel-slide src="C:\Users\Windsgate\Desktop\website\soya project\soyabeans\src\assets\images\IMG-1540.jpg">
         <h1>Hello world!</h1>
