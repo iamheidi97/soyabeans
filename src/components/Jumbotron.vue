@@ -10,6 +10,8 @@
 </script>
 <style scoped>
 .my-jumbo{
+    top: 0;
     position: absolute;
+    z-index: 200;
 }
 </style>

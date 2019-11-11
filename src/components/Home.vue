@@ -21,13 +21,13 @@
             class="d-block img-fluid w-100"
             width="1024"
             height="480"
-            src="../assets/images/castle.jpg"
+            src="../assets/images/castle2.jpg"
             alt="image slot"
           >
         </template>
       </b-carousel-slide>
 
-      <b-carousel-slide>
+      <!-- <b-carousel-slide>
         <template v-slot:img>
           <img
             class="d-block img-fluid w-100"
@@ -37,7 +37,7 @@
             alt="image slot"
           >
         </template>
-      </b-carousel-slide>
+      </b-carousel-slide> -->
 
       <b-carousel-slide>
         <template v-slot:img>
@@ -45,7 +45,7 @@
             class="d-block img-fluid w-100"
             width="1024"
             height="480"
-            src="../assets/images/IMG1540.jpg"
+            src="../assets/images/anime.jpg"
             alt="image slot"
           >
         </template>
@@ -82,7 +82,16 @@
 </script>
 <style scoped>
 .my-home{
-    height: 100vh;
+  background-position: center; 
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 100vh;
 }
-
+.carousel-item{
+  overflow: hidden;
+  box-sizing: border-box;
+  min-height: 100%;
+  max-height: 100%;
+  max-width: 100%;
+}
 </style>
