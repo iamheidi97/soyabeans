@@ -108,7 +108,7 @@
     }
     h2,
     h1 {
-      color: #54aa67;
+      color: #23A262;
     }
     .btn {
       width: 100%;
@@ -124,7 +124,7 @@
       border: none;
     }
     a.btn {
-      color: #54aa67;
+      color: #23A262;
       font-weight: bold;
       border: none;
       outline: none;
@@ -139,5 +139,11 @@
     input[type=number]::-webkit-outer-spin-button { 
       -webkit-appearance: none; 
       margin: 0; 
+    }
+    .card {
+      border: 1px solid #FFFBE5;
+    }
+    .btn {
+      font-size: 1.2em;
     }
 </style>
