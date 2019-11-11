@@ -5,7 +5,12 @@
     </h3>
     <div class="container-fluid">
         <div class="row">
-          
+          <div class="col-6">
+            Get fast results
+          </div>
+          <div class="col-2">
+            1
+          </div>
         </div>
     </div>
   </div>
