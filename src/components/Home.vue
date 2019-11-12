@@ -1,64 +1,37 @@
 <template>
   <div>
-
-    <Jumbotron/>
-    <Clippath/>
-
+    <!-- <Jumbotron/> -->
     <b-carousel
       id="carousel-1"
       v-model="slide"
       :interval="4000"
       controls
       indicators
-      background="#ababab"
-      img-width="1024"
-      img-height="480"
-      style="text-shadow: 1px 1px 2px #333;"
+      img-height="100vh"
+      background="white"
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
+      class="partialheight"
     >
       <!-- Text slides with image -->
 
       <b-carousel-slide>
         <template v-slot:img>
+          <p class="text1">Be Japan-ready in a month!</p>
           <img
-            class="d-block img-fluid w-100"
-            width="1024"
-            height="480"
+            class="img-fluid"
             src="../assets/images/castle5.jpg"
             alt="image slot"
           />
         </template>
       </b-carousel-slide>
-
-      <!-- <b-carousel-slide>
-        <template v-slot:img>
-          <img
-            class="d-block img-fluid w-100"
-            width="1024"
-            height="480"
-            src="../assets/images/calligraphy.jpg"
-            alt="image slot"
-          >
-        </template>
-      </b-carousel-slide>-->
-
-      <!-- <b-carousel-slide>
-        <template v-slot:img>
-          <img
-            class="d-block img-fluid w-100"
-            width="1024"
-            height="480"
-            src="../assets/images/anime5.jpg"
-            alt="image slot"
-          />
-        </template>
-      </b-carousel-slide> -->
-
     </b-carousel>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+      <polygon fill="white" points="0,0 0,20 100,20 100,10"/>
+    </svg>
 
 
-
+    <SoyaDescription />
     <p class="mt-4 d-none">
       Slide #: {{ slide }}
       <br />
@@ -67,20 +40,18 @@
   </div>
 </template>
 <script>
- import Jumbotron from "./Jumbotron";
- import Clippath from "./Clippath";
-
+//  import Jumbotron from "./Jumbotron";
+import SoyaDescription from "./SoyaDescription";
 export default {
+  components:{
+    SoyaDescription
+  },
   data() {
     return {
       publicPath: process.env.BASE_URL,
       slide: 0,
       sliding: null
     };
-  },
-  components: {
-    Jumbotron,
-    Clippath
   },
   methods: {
     // eslint-disable-next-line no-unused-vars
@@ -95,15 +66,57 @@ export default {
 };
 </script>
 <style scoped>
-.my-home {
-  background-position: center;
-  overflow: hidden;
-  box-sizing: border-box;
-  height: 100vh;
-}
-.carousel-item {
-  overflow: hidden;
-  box-sizing: border-box;
-}
-
+    .partialheight {
+      overflow:hidden;
+      height: 100vh;
+    }
+    svg {
+      position: absolute;
+      top: 71%;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      /* height: 100%; */
+      /* set height to pixels if you want angle to change with screen width */
+    }
+    .skewed {
+      transform: skewY(5deg);
+      transform-origin: top right;
+    }
+    .text1 {
+      text-align:left;
+      position: absolute;
+      top: 40%;
+      right: 25%;
+      transform: translate(70%, -55%);
+      color: #fff9ba;
+      background-color: transparent;
+      font-weight: bold;
+      font-size: 4.8rem;
+      width:50%;
+      padding-right: 3em;
+      /* line-height: 95%; */
+      /* text-shadow: px 1px 0px #4f9e37; */
+      text-shadow: 4px 4px 0px #4f9e37;
+    }
+    .my-home {
+      background-position: center;
+      height: 100vh;
+    }
+    .carousel-item {
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+    .skew {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(#ff9d2f, #ff6126);
+      transform: skewY(5deg);
+      transform-origin: top right;
+    }
 </style>

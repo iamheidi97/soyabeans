@@ -9,11 +9,12 @@
             <p class="mb-0 text-right why-bolder">Get fast results with our native Japanese sensei.</p>
             <p class="text-right">Not only can we teach you the Japanese language, we can also help you learn more about the Japanese culture, places to go and must-try cuisines.</p>
           </div>
-          <div class="col-5">
+          <div class="col-lg-5">
             <h1 class="display-1 text-center circle-behind font-weight-bolder text-light">1</h1>
           </div>          
         </div>
         <div class="row justify-content-center my-5">
+
           <div class="col-5">
             <h1 class="display-1 text-center circle-behind font-weight-bolder ml-auto text-light">2</h1>
           </div>

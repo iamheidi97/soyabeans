@@ -21,6 +21,8 @@ export default {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
+    padding: 0;
+    margin: 0;
     color: #2c3e50;
   }
   .btn-success {
@@ -29,5 +31,10 @@ export default {
   }
   .green-text {
     color: #23A262;
+  }
+  @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap");
+
+  body {
+    font-family: "Montserrat", sans-serif !important;
   }
 </style>

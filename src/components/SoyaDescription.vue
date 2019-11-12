@@ -23,7 +23,8 @@
 
 <style scoped>
     .description {
-      margin-top: 7em;
+      margin-top: 1em;
+      z-index: 10;
     }
 
 </style>
