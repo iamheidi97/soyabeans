@@ -1,14 +1,14 @@
 <template>
   <div class="my-footer footer-bg">
 
-    <div class="row container-fluid">
-      <div class="col-lg-6 col-sm-12 d-inline-block align-top mt-5 text-left">
+    <div class="row justify-content-center">
+      <div class="col-lg-3 col-sm-6 align-top mt-5 text-left mx-sm-4 mb-sm-3">
         <h4 class="font-weight-bold text-center mb-3">Contact Us</h4>
         <div class="info">
-          <i class="fa fa-phone fa-2x mr-2"></i>
+          <i class="fa fa-phone fa-2x mr-2"></i>text
           <span>(032) 520 1039</span>
         </div>
-        <div class="info">
+        <div class="info justify-content-center">
           <i class="fa fa-envelope fa-2x mr-2"></i>
           <span class="ml-auto">info@soyabeansph.com</span>
         </div>
@@ -17,7 +17,7 @@
           <b-link href="www.facebook.com/SoyaBeansPH/"><i class="fa fa-facebook-f fa-2x mr-2"></i>www.facebook.com/SoyaBeansPH/</b-link>
         </div>
       </div>
-      <div class="col-lg-6 col-sm-12 my-map d-inline-block align-self-end container-fluid">
+      <div class="col-lg-3 col-sm-11 my-map align-self-end mx-sm-4">
         <div class="mapouter">
           <div class="gmap_canvas">
             <iframe

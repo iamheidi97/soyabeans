@@ -1,6 +1,8 @@
 <template>
   <div class="my-header">
-    <div class="bg-blur"></div>
+
+
+
     <nav class="navbar navbar-expand-lg header-bg">
       <div>
         <a class="navbar-brand d-none d-md-inline">
@@ -8,7 +10,9 @@
         <label class="h-title font-weight-bold">Soya Beans Japanese Language School</label>
       </a>
       </div>
+
       
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
@@ -20,6 +24,7 @@
           <b-nav-item href="#" class="hvr-underline-from-center mr-3">Contact Us</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
+      <b-navbar/>
     </nav>
   </div>
 </template>

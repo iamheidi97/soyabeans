@@ -13,7 +13,8 @@
     </div>
     <div class="mt-3">
       <div class="row justify-content-center">
-        <div class="col-3">
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 align-self-top">
           <b-card border-variant="light" class="text-center h-100">
             <template v-slot:header>
               <small class="text-muted">Beginner</small>
@@ -28,7 +29,8 @@
             </template>
           </b-card>
         </div>
-        <div class="col-3">
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 align-self-top">
           <b-card border-variant="light" class="text-center h-100">
             <template v-slot:header>
               <small class="text-muted">Beginner to Intermediate</small>
@@ -43,7 +45,7 @@
             </template>
           </b-card>
         </div>
-        <div class="col-3">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
           <b-card border-variant="light" class="text-center h-100">
             <template v-slot:header>
               <small class="text-muted">Beginner to Intermediate</small>
@@ -58,8 +60,8 @@
             </template>
           </b-card>
         </div>
-        <div class="col-3">
-          
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
           <b-card border-variant="light" class="text-center h-100">
             <template v-slot:header>
               <small class="text-muted">Beginner to Advanced</small>

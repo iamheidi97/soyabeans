@@ -4,12 +4,12 @@
     <h1 class="font-weight-bolder my-5 green-text">What some of our students had to say</h1>
     <div class="row justify-content-center mt-5">
 
-      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="col-xl-3 col-lg-6 col-sm-12">
         <b-card img-src img-alt="Image" img-top class="h-100">
           <b-card-text class="px-4">
             <img
               src="../assets/images/Testimonials/Hannah-san.png"
-              class="img-fluid rounded-circle w-25 my-3"
+              class="img-fluid rounded-circle w-50 my-3"
             />
             <p
               class="justify-center"
@@ -20,12 +20,12 @@
           </template>
         </b-card>
       </div>
-      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="col-xl-3 col-lg-6 col-sm-12">
         <b-card img-src img-alt="Image" img-top class="h-100">
           <b-card-text class="px-4">
             <img
               src="../assets/images/Testimonials/Allenjen-san.png"
-              class="img-fluid rounded-circle w-25 my-3"
+              class="img-fluid rounded-circle w-50 my-3"
             />
             <p
               class="justify-center"
@@ -39,10 +39,13 @@
           </template>
         </b-card>
       </div>
-      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="col-xl-3 col-lg-6 col-sm-12">
         <b-card img-src img-alt="Image" img-top class="h-100">
           <b-card-text class="px-4">
-            <img src class="img-fluid" />
+            <img
+              src="../assets/images/Testimonials/p1.jpeg"
+              class="img-fluid rounded-circle w-50 my-3"
+            />
             <p
               class="justify-center"
             >We thoroughly enjoyed our Japanese Style Caregiving lessons in 2 months with Sensei Hara. She is fun, encouraging and always prepared. She able to make us feel comfortable and welcome.</p>

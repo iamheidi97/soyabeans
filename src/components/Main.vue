@@ -2,7 +2,6 @@
   <div>
     <Header />
     <Home />
-    <SoyaDescription />
     <Why />
     <Testimonies />
     <Courses />
@@ -13,7 +12,6 @@
 <script>
 import Header from "./Header";
 import Home from "./Home";
-import SoyaDescription from "./SoyaDescription";
 import Why from "./Why";
 import Testimonies from "./Testimonies";
 import Courses from "./Courses";
@@ -24,7 +22,6 @@ export default {
   components: {
     Header,
     Home,
-    SoyaDescription,
     Why,
     Testimonies,
     Courses,

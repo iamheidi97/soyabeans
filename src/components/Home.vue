@@ -7,11 +7,9 @@
       :interval="4000"
       controls
       indicators
-      img-height="100vh"
       background="white"
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
-      class="partialheight"
     >
       <!-- Text slides with image -->
 
@@ -26,10 +24,10 @@
         </template>
       </b-carousel-slide>
     </b-carousel>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
       <polygon fill="white" points="0,0 0,20 100,20 100,10"/>
-    </svg>
-
+    </svg> -->
+    <img src="../assets/skewedrectangle.svg" class="img-fluid w-100 upperslight"/>
 
     <SoyaDescription />
     <p class="mt-4 d-none">
@@ -66,18 +64,10 @@ export default {
 };
 </script>
 <style scoped>
-    .partialheight {
-      overflow:hidden;
-      height: 100vh;
-    }
-    svg {
-      position: absolute;
-      top: 71%;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      /* height: 100%; */
-      /* set height to pixels if you want angle to change with screen width */
+    .upperslight {
+      position: relative;
+      margin-top:-10%;
+      z-index: 1000;
     }
     .skewed {
       transform: skewY(5deg);
