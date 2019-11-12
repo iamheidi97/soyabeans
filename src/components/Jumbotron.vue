@@ -1,7 +1,8 @@
 <template>
   <div class="my-jumbo">
-    <div class="col-8 text-right p-0 ml-auto">
-      <b-jumbotron header="Be Japan-ready in a month!">
+    <div class="col-8 p-0 ml-auto mr-4 text-left">
+      <b-jumbotron>
+        <label>Be Japan-ready in a month!</label>
       </b-jumbotron>
     </div>
   </div>
@@ -24,8 +25,11 @@
     font-family: inherit;
     color: #fff9ba;
     background-color: transparent;
+    font-weight: bold;
 }
-h1{
-    font-size: 4.5rem;
+label{
+    font-size: 3.5rem;
+    /* text-shadow: px 1px 0px #4f9e37; */
+    text-shadow: 4px 4px 0px #4f9e37;
 }
 </style>

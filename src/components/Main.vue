@@ -4,6 +4,7 @@
         <Home/>
         <SoyaDescription/>
         <Why/>
+        <Testimonies />
         <Courses/>
         <Faqs/>
         <Footer/>
@@ -14,6 +15,7 @@ import Header from './Header'
 import Home from './Home'
 import SoyaDescription from './SoyaDescription'
 import Why from './Why'
+import Testimonies from './Testimonies'
 import Courses from './Courses'
 import Faqs from './Faqs'
 import Footer from './Footer'
@@ -24,6 +26,7 @@ export default {
       Home,
       SoyaDescription,
       Why,
+      Testimonies,
       Courses,
       Faqs,
       Footer

@@ -1,6 +1,6 @@
 <template>
   <div class="my-why">
-    <h3 class="display-4 font-weight-bolder my-5">
+    <h3 class="display-4 font-weight-bolder my-5 green-text">
       Why choose us?
     </h3>
     <div class="container">

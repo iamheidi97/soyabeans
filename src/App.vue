@@ -27,4 +27,7 @@ export default {
     background-color: #23A262;
     border-color: #23A262;
   }
+  .green-text {
+    color: #23A262;
+  }
 </style>

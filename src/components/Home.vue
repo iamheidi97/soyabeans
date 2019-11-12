@@ -1,5 +1,9 @@
 <template>
   <div>
+
+    <Jumbotron/>
+    <Clippath/>
+
     <b-carousel
       id="carousel-1"
       v-model="slide"
@@ -21,7 +25,7 @@
             class="d-block img-fluid w-100"
             width="1024"
             height="480"
-            src="../assets/images/castle3.jpg"
+            src="../assets/images/castle5.jpg"
             alt="image slot"
           />
         </template>
@@ -39,18 +43,21 @@
         </template>
       </b-carousel-slide>-->
 
-      <b-carousel-slide>
+      <!-- <b-carousel-slide>
         <template v-slot:img>
           <img
             class="d-block img-fluid w-100"
             width="1024"
             height="480"
-            src="../assets/images/anime3.jpg"
+            src="../assets/images/anime5.jpg"
             alt="image slot"
           />
         </template>
-      </b-carousel-slide>
+      </b-carousel-slide> -->
+
     </b-carousel>
+
+
 
     <p class="mt-4 d-none">
       Slide #: {{ slide }}
@@ -60,7 +67,8 @@
   </div>
 </template>
 <script>
-// import Jumbotron from "./Jumbotron";
+ import Jumbotron from "./Jumbotron";
+ import Clippath from "./Clippath";
 
 export default {
   data() {
@@ -70,9 +78,10 @@ export default {
       sliding: null
     };
   },
-  // components: {
-  //   Jumbotron
-  // },
+  components: {
+    Jumbotron,
+    Clippath
+  },
   methods: {
     // eslint-disable-next-line no-unused-vars
     onSlideStart(slide) {
@@ -96,4 +105,5 @@ export default {
   overflow: hidden;
   box-sizing: border-box;
 }
+
 </style>
