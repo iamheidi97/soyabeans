@@ -1,5 +1,5 @@
 <template>
-  <div class="my-footer mt-10rem">
+  <div class="my-footer footer-bg ">
     <div class="contact">
       <i class="fas fa-phone-alt"></i>
     </div>
@@ -13,8 +13,8 @@
             scrolling="no"
             marginheight="0"
             marginwidth="0"
-            height="300px"
-            width="600px"
+            height="200px"
+            width="500px"
           ></iframe>
         </div>
       </div>
@@ -28,5 +28,7 @@
   position: relative;
   bottom: 0;
 }
-
+.footer-bg{
+  background-image: linear-gradient(0deg, #fff1c6 50%, #ffffff 100%);
+}
 </style>
