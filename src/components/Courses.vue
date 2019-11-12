@@ -1,7 +1,7 @@
 <template>
   <div class="my-courses m-5">
     <div class="my-5">
-      <h1 class="font-weight-bolder display-4">Courses Available</h1>
+      <h1 class="font-weight-bolder display-4 green-text">Courses Available</h1>
     </div>
     <div class="container-fluid">
       <div class="row justify-content-center">
@@ -87,7 +87,8 @@
       font-size: 70%;
     }
     .my-courses {
-      height: 100vh;
+      margin-top: 5em;
+      margin-bottom: 5em;
     }
 
     div.card-header {
@@ -103,7 +104,8 @@
     .card-footer {
       border-top: none;
       font-weight: bolder;
-      color: #158C39; 
+      color: #158C39;
+      background-color: rgba(40, 167, 69,0.1);
     }
     .card-foo {
       font-weight: bolder;
