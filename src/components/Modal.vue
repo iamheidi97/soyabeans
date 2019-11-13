@@ -5,22 +5,22 @@
             <template v-slot:modal-title>
                 <h4 class="font-weight-bolder green-text">Interested? Get in touch with Soya Beans!</h4>
             </template>
-            <form class="p-3">
+            <form class="p-3" @submit.prevent="handleSubmit">
                 <div class="form-group">
-                    <input type="text" class="form-control" id="userName" placeholder="Name" :class="{ 'is-invalid': submitted && $v.userMessage.userName.$error }">
+                    <input type="text" class="form-control" id="userName" placeholder="Name" :class="{ 'is-invalid': submitted && $v.userMessage.userName.$error }" v-model="userMessage.userName">
                 </div>
                 <div class="form-group">
                     <!-- <label for="exampleInputEmail1">Email address</label> -->
-                    <input type="email" class="form-control" id="userEmail" aria-describedby="emailHelp" placeholder="Email"  :class="{ 'is-invalid': submitted && $v.userMessage.userEmail.$error }">
+                    <input type="email" class="form-control" id="userEmail" aria-describedby="emailHelp" placeholder="Email"  :class="{ 'is-invalid': submitted && $v.userMessage.userEmail.$error }" v-model="userMessage.userEmail">
                 </div>
                 <div class="form-group">
                     <!-- <label for="exampleInputPassword1">Password</label> -->
-                    <input type="number" class="form-control" id="userNumber" placeholder="Contact Number"  :class="{ 'is-invalid': submitted && $v.userMessage.userNumber.$error }">
+                    <input type="number" class="form-control" id="userNumber" placeholder="Contact Number"  :class="{ 'is-invalid': submitted && $v.userMessage.userNumber.$error }" v-model="userMessage.userNumber">
                 </div>
                 <div class="form-group">
-                    <textarea class="form-control" id="userMessage" rows="6" placeholder="Please enter your message" style="overflow:auto;resize:none" :class="{ 'is-invalid': submitted && $v.userMessage.userMessage.$error }"></textarea>
+                    <textarea class="form-control" id="userMessage" rows="6" placeholder="Please enter your message" style="overflow:auto;resize:none" :class="{ 'is-invalid': submitted && $v.userMessage.userMessage.$error }" v-model="userMessage.userMessage"></textarea>
                 </div>
-                <input type="submit" id="submit-form" class="hidden" />
+                <input type="submit" id="submit-form" class="d-none" />
             </form>
                 <template v-slot:modal-footer>
                     <div class="w-100">
@@ -33,7 +33,7 @@
                         >
                             Close
                         </b-button>
-                        <label for="submit-form" tabindex="0" class="btn btn-success btn-md" @click="show=false">Send Message</label>
+                        <label for="submit-form" tabindex="0" class="btn btn-success btn-md my-1">Send Message</label>
                         <!-- <b-button
                             variant="success"
                             size="md"
@@ -75,7 +75,7 @@
         methods: {
             handleSubmit(){
                 this.submitted = true;
-                this.$v.touch();
+                this.$v.$touch();
                 if(this.$v.invalid) {
                     return;
                 }

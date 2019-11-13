@@ -1,8 +1,9 @@
 <template>
-  <div class="my-header header-bg border-bottom-solid">
+  <div class="my-header border-bottom-solid">
+    <!-- <HeaderBg/> -->
     <b-navbar toggleable="lg">
       <img class="img-responsive mr-2" id="nav-logo" src="../assets/soyalogo.png" />
-      <label class="h-title font-weight-bold mr-auto" href="#">Soya Beans Japanese Language School</label>
+      <label class="h-title text1 font-weight-bold mr-auto" href="#">Soya Beans Japanese Language School</label>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
@@ -18,18 +19,37 @@
   </div>
 </template>
 <script>
+// import HeaderBg from "./HeaderBg";
+
+// export default{
+//   components: {
+//     HeaderBg
+//   }
+// };
 </script>
 <style scoped>
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  nav {
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    /* background-color: rgba(200, 200, 200, 0.2);   */
+    background-color: rgba(40, 167, 69, 0.1);
+    
+  }
+}
 .my-header {
-  color: #54aa67;
+  position: absolute;
+  top: 0;
+  color: #DCFFCC;
   box-sizing: border-box;
+  
 }
 label {
   padding: 0;
 }
-.header-bg {
-  background-image: linear-gradient(90deg, #f2ffed 50%, #99e7a3 100%);
-}
+/* nav {
+  background-color: #fff;
+} */
 label.h-title {
   font-size: 1.25rem;
   margin: 0;
@@ -39,7 +59,8 @@ a.nav-link:hover {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 0.1px rgba(0, 0, 0, 0);
+  color: #23A262;
+  /* box-shadow: 0 0 0.1px rgba(0, 0, 0, 0); */
   position: relative;
   overflow: hidden;
 }
@@ -63,7 +84,7 @@ a.nav-link:hover {
   left: 51%;
   right: 51%;
   bottom: 0;
-  background: #54aa67;
+  background: #DCFFCC;
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -81,6 +102,18 @@ a.nav-link:hover {
 
 .navbar-light .navbar-nav .nav-link {
   font-weight: bold;
-  color: rgba(84, 170, 103, 1);
+  /* color: #54aa67; */
+  color: #DCFFCC;
 }
+.nav-link:hover{
+  color: #DCFFCC !important;
+}
+/* .text1 {
+  transform: translate(70%, -55%);
+  color: #fff9ba;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 3.5rem;
+  text-shadow: 4px 4px 0px #4f9e37;
+} */
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header1 id="header"/>
-    <Home id="home"/>
+    <Header1 id="header" class="higher-z"/>
+    <Home id="home" class="upperslight1"/>
     <Why id="why"/>
     <Testimonies id="testimonies"/>
     <Courses id="courses"/>
@@ -38,6 +38,15 @@ body {
   font-family: "Montserrat", sans-serif !important;
   padding: 0;
   margin: 0;
+}
+.upperslight1 {
+  position: relative;
+  margin-top: -5%;
+  z-index: 100;
+}
+.higher-z {
+  position: relative;
+  z-index: 1000;
 }
 </style>
 

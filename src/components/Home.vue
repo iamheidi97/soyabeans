@@ -16,13 +16,7 @@
       <b-carousel-slide>
         <template v-slot:img>
           <p class="text1">Be Japan-ready in a month!</p>
-          <img class="img-fluid" src="../assets/images/castle5.jpg" alt="image slot" />
-        </template>
-      </b-carousel-slide>
-
-      <b-carousel-slide>
-        <template v-slot:img>
-          <img class="img-fluid" src="../assets/images/img5.jpg" alt="image slot" />
+          <img class="img-fluid" src="../assets/images/a2.jpg" alt="image slot" />
         </template>
       </b-carousel-slide>
 
@@ -34,39 +28,10 @@
 
       <b-carousel-slide>
         <template v-slot:img>
-          <img class="img-fluid" src="../assets/images/a2.jpg" alt="image slot" />
+          <img class="img-fluid" src="../assets/images/castle5.jpg" alt="image slot" />
         </template>
       </b-carousel-slide>
 
-      <b-carousel-slide>
-        <template v-slot:img>
-          <img class="img-fluid" src="../assets/images/a3.jpg" alt="image slot" />
-        </template>
-      </b-carousel-slide>
-
-      <b-carousel-slide>
-        <template v-slot:img>
-          <img class="img-fluid" src="../assets/images/a4.jpg" alt="image slot" />
-        </template>
-      </b-carousel-slide>
-
-      <b-carousel-slide>
-        <template v-slot:img>
-          <img class="img-fluid" src="../assets/images/a5.jpg" alt="image slot" />
-        </template>
-      </b-carousel-slide>
-
-      <b-carousel-slide>
-        <template v-slot:img>
-          <img class="img-fluid" src="../assets/images/a6.jpg" alt="image slot" />
-        </template>
-      </b-carousel-slide>
-
-      <b-carousel-slide>
-        <template v-slot:img>
-          <img class="img-fluid" src="../assets/images/a7.jpg" alt="image slot" />
-        </template>
-      </b-carousel-slide>
 
     </b-carousel>
     <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">

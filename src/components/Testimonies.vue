@@ -17,7 +17,7 @@
             >I am currently living in Japan right now and whether you believe it or not, it is very difficult to communicate with Japanese if you don't have knowledge about Nihonggo. Before I went to Japan, my fiance before who is my husband right now already warned me about the possible difficulties I will be facing when I live there, and the most difficult is of course on how I can communicate with Japanese. I am so happy that I was able to learn Japanese first before I came to Japan. I learned the best knowledge, in the best way from the best teacher in Soya Beans. And now, I am not scared to talk with the sales lady on the counter here in their department stores nor scared to find jobs because I know how to communicate with them and I love it. 🥰 Thanks Soya Beans and to my beloved teacher Tomoko sensei 😻!</p>
           </b-card-text>
           <template v-slot:footer>
-            <footer class="blockquote-footer bigger-text font-weight-bold">Hanah Radaza-Sato</footer>
+            <footer class="blockquote-footer bigger-text font-weight-bold">Hanah Radaza-Sato <br>🌸 ハナさん</footer>
           </template>
         </b-card>
       </div>
@@ -36,7 +36,8 @@
             >As a newbie here in Japan, everything excites me. From riding a train to exploring around, from enjoying spring and fall to conquering summer and winter. Despite this amazing experience, my life here is not as smooth as what everyone thinks. Aside from the fact that I’m away from home, I have to deal with drastic changes and pressures in studying while working. Everyday is a new day to challenge myself but I always do my best to manage everything. With God’s help, I am able to maintain my grades and excel in our class. In fact , recently I was able to pass JLPT N3 in less than a year of studying here . The determination I have, the prayers and help from my mentors lead me to where I am right now. 今度更に勉強して、N2 を目指します。</p>
           </b-card-text>
           <template v-slot:footer>
-            <footer class="blockquote-footer bigger-text font-weight-bold">Allenjen Ursabia</footer>
+            <footer class="blockquote-footer bigger-text font-weight-bold">Allenjen Ursabia<br>✨ アレンジェンさん</footer>
+      
           </template>
         </b-card>
       </div>
@@ -64,7 +65,7 @@
             </p>
           </b-card-text>
           <template v-slot:footer>
-            <footer class="blockquote-footer bigger-text font-weight-bolder">Anna, Chai, Jonas</footer>
+            <footer class="blockquote-footer bigger-text font-weight-bolder">Anna, Chai, Jonas <br> 👨‍👩‍👧 アナさん、チャイさん、ジョナスさん</footer>
           </template>
         </b-card>
       </div>
