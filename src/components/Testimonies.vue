@@ -1,15 +1,15 @@
 <template>
   <div class="my-testimonies">
 
-    <h1 class="font-weight-bolder my-5 green-text">What some of our students had to say</h1>
+    <h1 class="font-weight-bolder my-5 green-text mx-4">What some of our students had to say</h1>
     <div class="row justify-content-center mt-5">
 
-      <div class="col-xl-3 col-lg-6 col-sm-12">
+      <div class="col-xl-4 col-lg-6 col-sm-12">
         <b-card img-src img-alt="Image" img-top class="h-100">
           <b-card-text class="px-4">
             <img
               src="../assets/images/Testimonials/Hannah-san.png"
-              class="img-fluid rounded-circle w-50 my-3"
+              class="img-fluid rounded-pill up my-3"
             />
             <p
               class="justify-center"
@@ -20,12 +20,12 @@
           </template>
         </b-card>
       </div>
-      <div class="col-xl-3 col-lg-6 col-sm-12">
+      <div class="col-xl-4 col-lg-6 col-sm-12">
         <b-card img-src img-alt="Image" img-top class="h-100">
           <b-card-text class="px-4">
             <img
               src="../assets/images/Testimonials/Allenjen-san.png"
-              class="img-fluid rounded-circle w-50 my-3"
+              class="img-fluid rounded-pill up my-3"
             />
             <p
               class="justify-center"
@@ -39,12 +39,15 @@
           </template>
         </b-card>
       </div>
-      <div class="col-xl-3 col-lg-6 col-sm-12">
+      
+    </div>
+    <div class="row justify-content-center mt-3">
+        <div class="col-xl-4 col-lg-6 col-sm-12">
         <b-card img-src img-alt="Image" img-top class="h-100">
           <b-card-text class="px-4">
             <img
               src="../assets/images/Testimonials/p1.jpeg"
-              class="img-fluid rounded-circle w-50 my-3"
+              class="img-fluid rounded-pill down my-3"
             />
             <p
               class="justify-center"
@@ -72,27 +75,38 @@
 </script>
 
 <style scoped>
-.justify-center {
-  font-style: italic;
-  text-align: justify;
-  text-align-last: center;
-  font-size: 0.9em;
-}
-.bigger-text {
-  font-size: 1.1em;
-}
-.my-testimonies {
-  margin-top: 10em;
-  margin-bottom: 10em;
-}
-.card {
-  border: none;
-}
-.card-footer {
-  background-color: rgba(0, 0, 0, 0);
-  border-top: none;
-}
-.blockquote-footer {
-  color: #158c39;
-}
+    @media (max-width: 576px) {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+    .down {
+      width: 12em !important;
+    }
+    .up {
+      width: 10em !important;
+    }
+    .justify-center {
+      font-style: italic;
+      text-align: justify;
+      text-align-last: center;
+      font-size: 0.9em;
+    }
+    .bigger-text {
+      font-size: 1.1em;
+    }
+    .my-testimonies {
+      margin-top: 10em;
+      margin-bottom: 10em;
+    }
+    .card {
+      border: none;
+    }
+    .card-footer {
+      background-color: rgba(0, 0, 0, 0);
+      border-top: none;
+    }
+    .blockquote-footer {
+      color: #158c39;
+    }
 </style>

@@ -11,9 +11,7 @@
       </a>
       </div>
 
-      
-      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+      <b-navbar-toggle target="nav-collapse" class="ml-auto"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-auto mr-4">
@@ -30,8 +28,12 @@
 </template>
 <script>
 </script>
-<style scoped>
+<style>
     @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(84, 170, 103, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
 
     .my-header {
       font-family: "Montserrat", sans-serif;
@@ -104,7 +106,5 @@
       left: 0;
       right: 0;
     }
-
-
 
 </style>

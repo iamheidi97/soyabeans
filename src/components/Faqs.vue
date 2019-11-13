@@ -1,7 +1,7 @@
 <template>
   <div class="my-faqs">
     <div class="row justify-content-center">
-      <div class="col-lg-5 col-sm-11">
+      <div class="col-lg-5 col-sm-11 m-3 m-sm-3">
         <div role="tablist">
           <h1 class="font-weight-bolder">FAQS</h1>
           <h2>Frequently Asked Questions</h2>
@@ -69,7 +69,7 @@
           </b-card>
         </div>
       </div>
-      <div class="ml-lg-5 col-lg-4 col-sm-11 align-self-end mt-sm-5">
+      <div class="ml-lg-5 col-lg-4 col-sm-11 align-self-end mt-sm-5 m-3 m-sm-3">
         <div role="tablist">
           <form class="p-5">
             <h2 class="font-weight-bolder">BOOK YOUR FREE DEMO TODAY</h2>

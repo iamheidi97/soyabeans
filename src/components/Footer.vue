@@ -2,7 +2,7 @@
   <div class="my-footer footer-bg">
 
     <div class="row justify-content-center">
-      <div class="col-lg-3 col-sm-6 align-top mt-5 text-left mx-sm-4 mb-sm-3">
+      <div class="col-lg-3 col-sm-6 align-top mt-5 text-left mx-sm-4 mb-sm-3 col-8 mx-auto my-3">
         <h4 class="font-weight-bold text-center mb-3">Contact Us</h4>
         <div class="info">
           <i class="fa fa-phone fa-2x mr-2"></i>text
@@ -10,11 +10,11 @@
         </div>
         <div class="info justify-content-center">
           <i class="fa fa-envelope fa-2x mr-2"></i>
-          <span class="ml-auto">info@soyabeansph.com</span>
+          <span class="ml-auto text-wrap">info@soyabeansph.com</span>
         </div>
         <div class="info">
           
-          <b-link href="www.facebook.com/SoyaBeansPH/"><i class="fa fa-facebook-f fa-2x mr-2"></i>www.facebook.com/SoyaBeansPH/</b-link>
+          <b-link class="f-link" href="www.facebook.com/SoyaBeansPH/"><i class="fa fa-facebook-f fa-2x mr-2"></i>www.facebook.com/SoyaBeansPH/</b-link>
         </div>
       </div>
       <div class="col-lg-3 col-sm-11 my-map align-self-end mx-sm-4">
@@ -44,8 +44,9 @@
 
 </script>
 <style scoped>
-body{
-  margin: 0;
+.my-footer{
+  box-sizing: border-box;
+  overflow: hidden;
 }
 .footer-bg {
   background-image: linear-gradient(0deg, #fff1c6 50%, #ffffff 100%);
@@ -61,5 +62,12 @@ a{
 }
 .info {
   margin: 10px 0 0 0;
+}
+
+@media (max-width: 576px) {
+    .f-link{font-size: 0.9em;}
+    .info {
+      font-size: 0.8em;
+    }
 }
 </style>
