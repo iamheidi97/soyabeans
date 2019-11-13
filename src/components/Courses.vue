@@ -115,14 +115,21 @@
         </div>
       </div>
     </div>
-    <b-button
+    <Modal />
+    <!-- <b-button
       type="button"
       class="btn btn-primary btn-lg p-3 my-5"
       variant="success"
-    >Get in touch with us</b-button>
+    >Get in touch with us</b-button> -->
   </div>
 </template>
 <script>
+  import Modal from "./Modal";
+  export default {
+    components: {
+      Modal
+    }
+  }
 </script>
 <style scoped>
     @media (max-width: 576px) {

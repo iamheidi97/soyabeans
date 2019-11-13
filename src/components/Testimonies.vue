@@ -1,6 +1,7 @@
+/* eslint-disable vue/no-unused-components */
 <template>
   <div class="my-testimonies">
-
+    <!-- <Sakura/> -->
     <h1 class="font-weight-bolder my-5 green-text mx-4">What some of our students had to say</h1>
     <div class="row justify-content-center mt-5">
 
@@ -72,6 +73,12 @@
 </template>
 
 <script>
+// import Sakura from "./Sakura";
+// export default {
+//   components: {
+//     Sakura
+//   }
+// };
 </script>
 
 <style scoped>

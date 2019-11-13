@@ -27,6 +27,7 @@ export default {
   margin: 0;
   color: #2c3e50;
 }
+html{scroll-behavior:smooth}
 .btn-success {
   background-color: #23a262;
   border-color: #23a262;

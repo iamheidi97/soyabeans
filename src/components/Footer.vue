@@ -4,17 +4,18 @@
     <div class="row justify-content-center">
       <div class="col-lg-3 col-sm-6 align-top mt-5 text-left mx-sm-4 mb-sm-3 col-8 mx-auto my-3">
         <h4 class="font-weight-bold text-center mb-3">Contact Us</h4>
-        <div class="info">
-          <i class="fa fa-phone fa-2x mr-2"></i>text
-          <span>(032) 520 1039</span>
+        <div class="info row w-100 justify-content-left">
+          <i class="fa fa-phone fa-2x col-1"></i>
+          <span class="ml-2 col-8">call (032) 520 1039</span>
         </div>
-        <div class="info justify-content-center">
-          <i class="fa fa-envelope fa-2x mr-2"></i>
-          <span class="ml-auto text-wrap">info@soyabeansph.com</span>
+        <div class="info row w-100 justify-content-left">
+          <i class="fa fa-envelope fa-2x col-1"></i>
+          <span class="ml-2 col-8">info@soyabeansph.com</span>
         </div>
-        <div class="info">
+        <div class="info row justify-content-left">
+          <i class="fa fa-facebook-f fa-2x col-1"></i>
+          <b-link class="f-link text-decoration-none ml-2 col-8" href="www.facebook.com/SoyaBeansPH/">www.facebook.com/SoyaBeansPH/</b-link>
           
-          <b-link class="f-link" href="www.facebook.com/SoyaBeansPH/"><i class="fa fa-facebook-f fa-2x mr-2"></i>www.facebook.com/SoyaBeansPH/</b-link>
         </div>
       </div>
       <div class="col-lg-3 col-sm-11 my-map align-self-end mx-sm-4">

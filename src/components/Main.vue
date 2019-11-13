@@ -1,16 +1,16 @@
 <template>
   <div>
-    <Header />
-    <Home />
-    <Why />
-    <Testimonies />
-    <Courses />
-    <Faqs />
-    <Footer />
+    <Header1 id="header"/>
+    <Home id="home"/>
+    <Why id="why"/>
+    <Testimonies id="testimonies"/>
+    <Courses id="courses"/>
+    <Faqs id="faqs"/>
+    <Footer id="contact"/>
   </div>
 </template>
 <script>
-import Header from "./Header";
+import Header1 from "./Header1"
 import Home from "./Home";
 import Why from "./Why";
 import Testimonies from "./Testimonies";
@@ -20,7 +20,7 @@ import Footer from "./Footer";
 
 export default {
   components: {
-    Header,
+    Header1,
     Home,
     Why,
     Testimonies,
