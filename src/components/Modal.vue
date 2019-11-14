@@ -52,6 +52,7 @@
                     </div>
                 </template>
         </b-modal>
+
     </div>
 </template>
 
@@ -59,10 +60,7 @@
     import { required,email,numeric,minLength,maxLength } from "vuelidate/lib/validators";
     export default {
         mounted(){
-            let smtpJsScript = document.createElement('script');
-            smtpJsScript.setAttribute('src', 'https://smtpjs.com/v3/smtp.js'); 
-            smtpJsScript.defer = true
-            document.head.appendChild(smtpJsScript);
+            
         },
         data() {
             return {
@@ -94,15 +92,21 @@
                 }
                 this.sendEmail();
             },
+            showAlert(){
+                this.$swal('Message sent!', 'We will get back to you as soon as possible','success');
+            },
             sendEmail() {
                 window.Email.send({
                     SecureToken : "75c4abd2-34bc-49e8-bff2-d163131d0e38",
-                    To : 'rinabelgas@gmail.com',
+                    To : 'info@soyabeansph.com',
                     From : "lenej@windsgate.com",
                     Subject : "New message from Soya Beans website",
                     Body : "<strong>Name:</strong> " + this.userMessage.userName + "<br><strong>Email:</strong> " + this.userMessage.userEmail + "<br><strong>Contact Number:</strong> " + this.userMessage.userNumber + "<br><strong>Message</strong>: " + this.userMessage.userMessage 
-                }).then(
-                    this.$bvModal.hide('myModal')
+                }).then( () => 
+                    {
+                        this.$bvModal.hide('myModal');
+                        this.showAlert();
+                    }   
                 );
             }
         },

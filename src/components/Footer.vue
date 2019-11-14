@@ -2,23 +2,26 @@
   <div class="my-footer footer-bg">
 
     <div class="row justify-content-center">
-      <div class="col-lg-3 col-sm-6 align-top mt-5 text-left mx-sm-4 mb-sm-3 col-8 mx-auto my-3">
+      <div class="col-lg-5 col-sm-12 text-left mx-sm-4 mb-sm-3 m-4">
+
         <h4 class="font-weight-bold text-center mb-3">Contact Us</h4>
-        <div class="info row w-100 justify-content-left">
+        <div class="info row w-100">
           <i class="fa fa-phone fa-2x col-1"></i>
-          <span class="ml-2 col-8">call (032) 520 1039</span>
+          <span class="ml-2">(032) 520 1039</span>
         </div>
-        <div class="info row w-100 justify-content-left">
+        <div class="info row w-100">
           <i class="fa fa-envelope fa-2x col-1"></i>
-          <span class="ml-2 col-8">info@soyabeansph.com</span>
+          <span class="ml-2">info@soyabeansph.com</span>
         </div>
-        <div class="info row justify-content-left">
+        <div class="info row w-100">
           <i class="fa fa-facebook-f fa-2x col-1"></i>
-          <b-link class="f-link text-decoration-none ml-2 col-8" href="https://www.facebook.com/SoyaBeansPH/">www.facebook.com/SoyaBeansPH/</b-link>
+          <b-link class="f-link text-decoration-none ml-2" href="https://www.facebook.com/SoyaBeansPH/">www.facebook.com/SoyaBeansPH/</b-link>
           
         </div>
       </div>
-      <div class="col-lg-3 col-sm-11 my-map align-self-end mx-sm-4">
+
+      <div class="map-div col-lg-5 col-sm-12 align-self-end mx-sm-4">
+
         <div class="mapouter">
           <div class="gmap_canvas">
             <iframe
@@ -29,7 +32,7 @@
               marginheight="0"
               marginwidth="0"
               height="100%"
-              width="100%"
+              width="80%"
             ></iframe>
           </div>
         </div>
@@ -46,9 +49,8 @@
 </script>
 <style scoped>
 .my-footer{
-  box-sizing: border-box;
-  overflow: hidden;
 }
+
 .footer-bg {
   background-image: linear-gradient(0deg, #fff1c6 50%, #ffffff 100%);
 }

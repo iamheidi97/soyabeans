@@ -11,7 +11,13 @@ export default {
   name: "app",
   components: {
     Main
-  }
+  },
+  mounted() {
+    let smtpJsScript = document.createElement('script');
+            smtpJsScript.setAttribute('src', 'https://smtpjs.com/v3/smtp.js'); 
+            smtpJsScript.defer = true
+            document.head.appendChild(smtpJsScript);
+  },
 };
 </script>
 
@@ -27,7 +33,10 @@ export default {
   margin: 0;
   color: #2c3e50;
 }
-html{scroll-behavior:smooth}
+html{
+  scroll-behavior:smooth
+  }
+
 .btn-success {
   background-color: #23a262;
   border-color: #23a262;
@@ -39,6 +48,7 @@ html{scroll-behavior:smooth}
 
 body {
   font-family: "Montserrat", sans-serif !important;
+  padding: 0;
 }
 
   @media (max-width: 576px) {

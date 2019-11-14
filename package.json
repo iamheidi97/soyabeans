@@ -12,12 +12,14 @@
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "@fortawesome/vue-fontawesome": "^0.1.8",
+    "@inotom/vue-go-top": "^1.1.0",
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.4",
     "core-js": "^3.3.2",
     "sweetalert2": "^9.3.0",
     "vue": "^2.6.10",
     "vue-cli": "^2.9.6",
+    "vue-sweetalert2": "^2.1.5",
     "vuelidate": "^0.7.4"
   },
   "devDependencies": {

@@ -50,7 +50,7 @@
       .display-4 {
         font-size: 2.8rem;
       }
-    }
+  }
 
   /* // Medium devices (tablets, 768px and up) */
   @media (min-width: 768px) {  }

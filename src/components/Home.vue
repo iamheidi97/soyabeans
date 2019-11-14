@@ -15,42 +15,26 @@
 
       <b-carousel-slide>
         <template v-slot:img>
-          <p class="text1 all-text">Be Japan-ready in a month!</p>
+          <p class="text1 all-text">Be Japan-ready<br>in a month!</p>
           <img class="img-fluid" src="../assets/images/pham.jpg" alt="image slot" />
         </template>
       </b-carousel-slide>
 
       <b-carousel-slide>
         <template v-slot:img>
-          <p class="text2 all-text">Get well versed with the Japanese culture</p>
-          <img class="img-fluid" src="../assets/images/a1.jpg" alt="image slot" />
+          <p class="text2 all-text">Immerse yourself with the<br><span class="emp-t2">Japanese Culture</span></p>
+          <img class="img-fluid"   src="../assets/images/a1.jpg" alt="image slot" />
         </template>
       </b-carousel-slide>
 
       <b-carousel-slide>
         <template v-slot:img>
-          <p class="text3 all-text">Receive expert advise on great <span class="emp">Travel locations</span> for your trip</p>
+          <p class="text3 all-text text-right mr-5">Receive expert advise on<span class="emp-t3"><br>Great Travel Locations<br></span>for your trip</p>
           <img class="img-fluid" src="../assets/images/castle5.jpg" alt="image slot" />
         </template>
       </b-carousel-slide>
 
-      <b-carousel-slide>
-        <template v-slot:img>
-          <img class="img-fluid" src="../assets/images/q3.png" alt="image slot" />
-        </template>
-      </b-carousel-slide>
-
-      <b-carousel-slide>
-        <template v-slot:img>
-          <img class="img-fluid" src="../assets/images/q4.png" alt="image slot" />
-        </template>
-      </b-carousel-slide>
-
-
     </b-carousel>
-    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-      <polygon fill="white" points="0,0 0,20 100,20 100,10"/>
-    </svg>-->
     <img src="../assets/skewedrectangle.svg" class="img-fluid w-100 upperslight" />
 
     <SoyaDescription />
@@ -67,6 +51,7 @@ import SoyaDescription from "./SoyaDescription";
 export default {
   components: {
     SoyaDescription
+
   },
   data() {
     return {
@@ -97,48 +82,51 @@ export default {
   transform: skewY(5deg);
   transform-origin: top right;
 }
-.emp{
-  color: #fcf04e;
+.emp-t3{
+  color: #fffb25;
   background-color: transparent;
-  font-weight: bold;
   /* text-shadow: 4px 4px 0px #2c3e50; */
-  text-shadow: 4px 4px 0px #ffffff;
+  text-shadow: 4px 4px 0px #b4b4b4;
   /* color: #2c3e50; */
   font-size: 3.8rem;
 }
+.emp-t2{
+  color: #ff4949;
+  background-color: transparent;
+  /* text-shadow: 4px 4px 0px #2c3e50; */
+  text-shadow: 4px 4px 0px #ffffff;
+  /* color: #2c3e50; */
+  font-size: 4rem;
+}
 .text3{
-  font-size: 3rem;
-  transform: translate(70%, -50%);
+  transform: translate(-5%, -50%);
   top: 40%;
-  width: 60%;
-  padding-right: 3em;
 }
 .text2{
-  font-size: 3.8rem;
-  transform: translate(40%, -50%);
+  transform: translate(50%, -50%);
   top: 30%;
-  width: 90%;
-  padding-right: 3em;
+  right: 50%;
+  background-color: transparent;
 }
-.text1 {
-  font-size: 3.5rem;
+p.text1 {
   text-align: left;
   transform: translate(70%, -55%);
   top: 40%;
-  width: 50%;
-  padding-right: 3em;
+  right: 20%;
 }
 .all-text{
+  font-size: 3.4rem;
+  /* right: 35%; */
   position: absolute;
-  right: 30%;
-  color: #fff9ba;
   background-color: transparent;
   font-weight: bold;
-  /* line-height: 95%; */
-  /* text-shadow: px 1px 0px #4f9e37; */
+  color: #fff9ba;
+  width: 100%;
   text-shadow: 4px 4px 0px #4f9e37;
 }
 .my-home {
+  overflow: hidden;
+  box-sizing: border-box;
   background-position: center;
   height: 100vh;
 }
@@ -160,28 +148,44 @@ export default {
 }
 
 @media (max-width: 930px) {
-  .text1 {
-    font-size: 2.8rem;
+  .all-text { 
+    font-size: 2.6em;  
+  }
+  .emp-t2, .emp-t3{
+    font-size: 2.8em;
   }
 }
 @media (max-width: 768px) {
-  .text1 {
+  .all-text {
     font-size: 2.5rem;
+  }
+  .emp-t2, .emp-t3{
+    font-size: 2.6rem;
   }
 }
 @media (max-width: 668px) {
-  .text1 {
+  .all-text {
     font-size: 2rem;
+  }
+  .emp-t2, .emp-t3{
+    font-size: 2.1rem;
   }
 }
 @media (max-width: 530px) {
-  .text1 {
+  .all-text {
     font-size: 1.5rem;
+  }
+  .emp-t2, .emp-t3{
+    font-size: 1.6rem;
   }
 }
 @media (max-width: 360px) {
-  .text1 {
+  .all-text{
+    font-size: 1rem;
+  }
+  .emp-t2, .emp-t3{
     font-size: 1rem;
   }
 }
+
 </style>

@@ -28,7 +28,7 @@
             </template>
             <b-card-text class="px-4">
               <p>Planning to visit Japan? Know Enough Japanese to get around Japan and interact with the locals.</p>
-              <p>You will be taught the basic writing conventions (Hiragana and Katakana) and useful expressions in Japanese. You willalso be given insights on the Japanese culture.</p>
+              <p>You will be taught the basic writing conventions (Hiragana and Katakana) and useful expressions in Japanese. You will also be given insights on the Japanese culture.</p>
             </b-card-text>
             <template v-slot:footer>
               <p class="my-3">
@@ -51,8 +51,8 @@
               </h2>
             </template>
             <b-card-text class="px-4">
-              <p>Do you admire Japan's culture? Or do you want to watch ani,e or manga without having to wait for subtitles? This course is for you.</p>
-              <p>Conversational Japnese will be taught to you. Test your Japanese and immerse yourself by reading our wide ccollection of mangas and anime related materials.</p>
+              <p>Do you admire Japan's culture? Or do you want to watch anime or manga without having to wait for subtitles? This course is for you.</p>
+              <p>Conversational Japanese will be taught to you. Test your Japanese and immerse yourself by reading our wide collection of mangas and anime related materials.</p>
             </b-card-text>
             <template v-slot:footer>
               <p class="my-3">
@@ -99,7 +99,7 @@
             </template>
             <b-card-text class="px-4">
               <p>Do you already have plans to go to work to Japan? Certification exams increase your chances of achieving those dreams.</p>
-              <p>You will be taught Japanese in accordance to the strucutre of the JLPT Exams. Test yourself with mock tests that will be provided to assessyour Japanese.</p>
+              <p>You will be taught Japanese in accordance to the strucutre of the JLPT Exams. Test yourself with mock tests that will be provided to assess your Japanese skills.</p>
               <p>
                 <strong>N5, N4, N5+N4, N3, and N2</strong> courses are available.
               </p>

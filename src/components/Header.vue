@@ -1,69 +1,77 @@
 <template>
-  <div class="my-header">
-    <nav class="navbar navbar-expand-lg header-bg">
-      <div>
-        <a class="navbar-brand d-none d-md-inline">
-          <img class="img-responsive mr-2" id="nav-logo" src="../assets/soyalogo.png" />
-          <label class="h-title font-weight-bold">Soya Beans Japanese Language School</label>
-        </a>
-      </div>
-
-      <b-navbar-toggle target="nav-collapse" class="ml-auto"></b-navbar-toggle>
+  <div class="my-header border-bottom-solid">
+    <!-- <HeaderBg/> -->
+    <b-navbar toggleable="lg">
+      <img class="my-logo img-responsive mr-2" id="nav-logo" src="../assets/soyalogo.png" />
+      <label class="h-title text1 font-weight-bold mr-auto d-sm-none d-lg-block d-none" href="#">Soya Beans Japanese Language School</label>
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav class="ml-auto mr-4">
-          <b-nav-item href="#" class="hvr-underline-from-center mr-3">Home</b-nav-item>
-          <b-nav-item href="#" class="hvr-underline-from-center mr-3">Why Choose Us</b-nav-item>
-          <b-nav-item href="#" class="hvr-underline-from-center mr-3">Courses</b-nav-item>
-          <b-nav-item href="#" class="hvr-underline-from-center mr-3">FAQS</b-nav-item>
-          <b-nav-item href="#" class="hvr-underline-from-center mr-3">Contact Us</b-nav-item>
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item href="#home" class="hvr-underline-from-center mr-3 my-2">Home</b-nav-item>
+          <b-nav-item href="#why" class="hvr-underline-from-center mr-3 my-2">Why Choose Us</b-nav-item>
+          <b-nav-item href="#courses" class="hvr-underline-from-center mr-3 my-2">Courses</b-nav-item>
+          <b-nav-item href="#faqs" class="hvr-underline-from-center mr-3 my-2">FAQS</b-nav-item>
+          <b-nav-item href="#contact" class="hvr-underline-from-center mr-3 my-2">Contact Us</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
-      <b-navbar />
-    </nav>
+    </b-navbar>
   </div>
 </template>
 <script>
 </script>
-<style>
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(84, 170, 103, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+<style scoped>
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  nav {
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    /* background-color: rgba(200, 200, 200, 0.2);   */
+    background-color: rgba(40, 167, 69, 0.1);
+    
+  }
 }
-
+@media (max-width: 576px) {
+    .navbar-light .navbar-nav .nav-link {
+      font-weight: bold;
+      /* color: #54aa67; */
+      color: #23A262 !important;
+    }
+}
+.my-logo{
+  background-color: #fff9ba;
+  border-radius: 100%;
+  box-shadow: 3px 2px 0px #4f9e37;
+}
 .my-header {
-  position: sticky;
-  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 0;
+  box-sizing: border-box;
+  
+}
+label {
+  padding: 0;
+}
+/* nav {
+  background-color: #fff;
+} */
+label.h-title {
+  font-size: 1.25rem;
+  margin: 0;
+  color: #fff9ba;
+  text-shadow: 3px 2px 0px #4f9e37;
+}
+a.nav-link:hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  color: #23A262;
+  /* box-shadow: 0 0 0.1px rgba(0, 0, 0, 0); */
+  position: relative;
+  overflow: hidden;
 }
 #nav-logo {
-  height: 60px;
-}
-a.nav-link {
-  /* margin-left: 1.1rem; */
-  color: #54aa67;
-  font-weight: bold;
-}
-/* a.nav-link:hover{
-      transition: all 0.3s ease 0s;
-      color: #2c3e50;
-      font-size: 18px;
-    } */
-.h-title {
-  color: #54aa67;
-}
-.header-bg {
-  background-image: linear-gradient(90deg, #f2ffed 50%, #99e7a3 100%);
-
-}
-
-a.btn.button {
-  font-weight: bold;
-  color: #1e5707;
-  border-radius: 2rem;
-}
-a:hover {
-  color: #54aa67;
+  height: 2.8rem;
 }
 /* Underline From Center */
 .hvr-underline-from-center {
@@ -71,7 +79,7 @@ a:hover {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  /* box-shadow: 0 0 .1px rgba(0, 0, 0, 0); */
   position: relative;
   overflow: hidden;
 }
@@ -82,7 +90,7 @@ a:hover {
   left: 51%;
   right: 51%;
   bottom: 0;
-  background: #54aa67;
+  background: #DCFFCC;
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -97,4 +105,21 @@ a:hover {
   left: 0;
   right: 0;
 }
+
+.navbar-light .navbar-nav .nav-link {
+  font-weight: bold;
+  /* color: #54aa67; */
+  color: #DCFFCC;
+}
+.nav-link:hover{
+  color: #DCFFCC !important;
+}
+/* .text1 {
+  transform: translate(70%, -55%);
+  color: #fff9ba;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 3.5rem;
+  text-shadow: 4px 4px 0px #4f9e37;
+} */
 </style>
