@@ -14,7 +14,7 @@
         </div>
         <div class="info row justify-content-left">
           <i class="fa fa-facebook-f fa-2x col-1"></i>
-          <b-link class="f-link text-decoration-none ml-2 col-8" href="www.facebook.com/SoyaBeansPH/">www.facebook.com/SoyaBeansPH/</b-link>
+          <b-link class="f-link text-decoration-none ml-2 col-8" href="https://www.facebook.com/SoyaBeansPH/">www.facebook.com/SoyaBeansPH/</b-link>
           
         </div>
       </div>

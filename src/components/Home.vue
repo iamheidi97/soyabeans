@@ -15,20 +15,34 @@
 
       <b-carousel-slide>
         <template v-slot:img>
-          <p class="text1">Be Japan-ready in a month!</p>
-          <img class="img-fluid" src="../assets/images/a2.jpg" alt="image slot" />
+          <p class="text1 all-text">Be Japan-ready in a month!</p>
+          <img class="img-fluid" src="../assets/images/pham.jpg" alt="image slot" />
         </template>
       </b-carousel-slide>
 
       <b-carousel-slide>
         <template v-slot:img>
+          <p class="text2 all-text">Get well versed with the Japanese culture</p>
           <img class="img-fluid" src="../assets/images/a1.jpg" alt="image slot" />
         </template>
       </b-carousel-slide>
 
       <b-carousel-slide>
         <template v-slot:img>
+          <p class="text3 all-text">Receive expert advise on great <span class="emp">Travel locations</span> for your trip</p>
           <img class="img-fluid" src="../assets/images/castle5.jpg" alt="image slot" />
+        </template>
+      </b-carousel-slide>
+
+      <b-carousel-slide>
+        <template v-slot:img>
+          <img class="img-fluid" src="../assets/images/q3.png" alt="image slot" />
+        </template>
+      </b-carousel-slide>
+
+      <b-carousel-slide>
+        <template v-slot:img>
+          <img class="img-fluid" src="../assets/images/q4.png" alt="image slot" />
         </template>
       </b-carousel-slide>
 
@@ -83,18 +97,43 @@ export default {
   transform: skewY(5deg);
   transform-origin: top right;
 }
-.text1 {
-  text-align: left;
-  position: absolute;
+.emp{
+  color: #fcf04e;
+  background-color: transparent;
+  font-weight: bold;
+  /* text-shadow: 4px 4px 0px #2c3e50; */
+  text-shadow: 4px 4px 0px #ffffff;
+  /* color: #2c3e50; */
+  font-size: 3.8rem;
+}
+.text3{
+  font-size: 3rem;
+  transform: translate(70%, -50%);
   top: 40%;
-  right: 25%;
+  width: 60%;
+  padding-right: 3em;
+}
+.text2{
+  font-size: 3.8rem;
+  transform: translate(40%, -50%);
+  top: 30%;
+  width: 90%;
+  padding-right: 3em;
+}
+.text1 {
+  font-size: 3.5rem;
+  text-align: left;
   transform: translate(70%, -55%);
+  top: 40%;
+  width: 50%;
+  padding-right: 3em;
+}
+.all-text{
+  position: absolute;
+  right: 30%;
   color: #fff9ba;
   background-color: transparent;
   font-weight: bold;
-  font-size: 3.5rem;
-  width: 50%;
-  padding-right: 3em;
   /* line-height: 95%; */
   /* text-shadow: px 1px 0px #4f9e37; */
   text-shadow: 4px 4px 0px #4f9e37;
