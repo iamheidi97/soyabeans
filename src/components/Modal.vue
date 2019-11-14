@@ -102,7 +102,7 @@
                     Subject : "New message from Soya Beans website",
                     Body : "<strong>Name:</strong> " + this.userMessage.userName + "<br><strong>Email:</strong> " + this.userMessage.userEmail + "<br><strong>Contact Number:</strong> " + this.userMessage.userNumber + "<br><strong>Message</strong>: " + this.userMessage.userMessage 
                 }).then(
-                    this.$bvModal.close('#myModal')
+                    this.$bvModal.hide('myModal')
                 );
             }
         },
