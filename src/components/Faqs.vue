@@ -28,7 +28,7 @@
             </b-card-header>
             <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
               <b-card-body> 
-                <b-card-text>When you finish a course in Soya beanss language School, you can be given a certificate that proves the number of hours and the course you have undertaken with us.</b-card-text>
+                <b-card-text>When you finish a course in Soya Beans Language School, you can be given a certificate that proves the number of hours and the course you have undertaken with us.</b-card-text>
               </b-card-body>
             </b-collapse>
           </b-card>
@@ -72,7 +72,7 @@
       <div class="ml-lg-5 col-lg-4 col-sm-11 align-self-end mt-sm-5 m-3 m-sm-3">
         <div role="tablist">
           <form class="p-5" @submit.prevent="handleSubmit">
-            <h2 class="font-weight-bolder">BOOK YOUR FREE DEMO TODAY</h2>
+            <h2 class="font-weight-bolder">BOOK YOUR FREE DEMO TODAY!</h2>
             <div class="form-group">
               <input type="text" class="form-control" id="name" placeholder="Name" v-model="book.userName"/>
               <div v-if="booked && !$v.book.userName.required" class="invalid-feedback">Name is required.</div>

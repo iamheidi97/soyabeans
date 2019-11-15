@@ -20,10 +20,16 @@
         </template>
       </b-carousel-slide>
 
+      <!-- <b-carousel-slide>
+        <template v-slot:img>
+          <p class="text2 all-text">Immerse yourself with the<br><span class="emp-t2">Japanese Culture</span></p>
+          <img class="img-fluid"   src="../assets/images/1.png" alt="image slot" />
+        </template>
+      </b-carousel-slide> -->
       <b-carousel-slide>
         <template v-slot:img>
           <p class="text2 all-text">Immerse yourself with the<br><span class="emp-t2">Japanese Culture</span></p>
-          <img class="img-fluid"   src="../assets/images/a1.jpg" alt="image slot" />
+          <img class="img-fluid"   src="../assets/images/2.png" alt="image slot" />
         </template>
       </b-carousel-slide>
 
@@ -86,36 +92,41 @@ export default {
   color: #fffb25;
   background-color: transparent;
   /* text-shadow: 4px 4px 0px #2c3e50; */
-  text-shadow: 4px 4px 0px #b4b4b4;
+  text-shadow: 3px 3px 0px #b4b4b4;
   /* color: #2c3e50; */
   font-size: 3.8rem;
 }
 .emp-t2{
-  color: #ff4949;
+  color: rgb(255, 72, 47);
   background-color: transparent;
   /* text-shadow: 4px 4px 0px #2c3e50; */
-  text-shadow: 4px 4px 0px #ffffff;
+  text-shadow: 3.8px 3.8px 0px rgb(255, 255, 214);
   /* color: #2c3e50; */
   font-size: 4rem;
 }
-.text3{
+p.text3{
   transform: translate(-5%, -50%);
   top: 40%;
+  font-size: 3.4rem;
 }
-.text2{
-  transform: translate(50%, -50%);
-  top: 30%;
+p.text2{
+  font-size: 3.4rem;
+  transform: translate(50%, -52%);
+  top: 52%;
   right: 50%;
   background-color: transparent;
+  line-height: 100%;
+  color: rgb(0, 119, 255);
+  text-shadow: 3px 3px 0px rgb(255, 255, 255);
 }
 p.text1 {
   text-align: left;
-  transform: translate(70%, -55%);
+  transform: translate(75%, -55%);
   top: 40%;
   right: 20%;
+  font-size: 4rem;
 }
 .all-text{
-  font-size: 3.4rem;
   /* right: 35%; */
   position: absolute;
   background-color: transparent;

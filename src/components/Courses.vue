@@ -27,14 +27,14 @@
               </h2>
             </template>
             <b-card-text class="px-4">
-              <p>Planning to visit Japan? Know Enough Japanese to get around Japan and interact with the locals.</p>
+              <p>Planning to visit Japan? Know enough Japanese to get around Japan and interact with the locals.</p>
               <p>You will be taught the basic writing conventions (Hiragana and Katakana) and useful expressions in Japanese. You will also be given insights on the Japanese culture.</p>
             </b-card-text>
             <template v-slot:footer>
               <p class="my-3">
-                2-hour sessions
-                <br />every Wednesday & Friday
-                <br />for 4 weeks
+                1-hour sessions
+                <br />every Monday to Friday
+                <br />for 1-2 weeks
                 <br />
               </p>
             </template>
@@ -57,7 +57,7 @@
             <template v-slot:footer>
               <p class="my-3">
                 1.5-hour sessions
-                <br />every Tuesday & Thursday
+                <br />every Monday & Wednesday
                 <br />for 4 weeks
                 <br />
               </p>

@@ -30,10 +30,10 @@
             />
             <p
               class="justify-center"
-            >原先生から学んだ事が日本で生活する上で、大いに役に立ちました。非常に感謝しています。原先生だけでなくSoya Beans Japanese Language School の他のスタッフの方々とても感謝しています。</p>
+            >原先生から学んだ事が日本で生活する上で、大いに役に立ちました。非常に感謝しています。原先生だけでなくSoya Beans Japanese Language School の他のスタッフの方々にとても感謝しています。</p>
             <p
               class="justify-center font-italic"
-            >As a newbie here in Japan, everything excites me. From riding a train to exploring around, from enjoying spring and fall to conquering summer and winter. Despite this amazing experience, my life here is not as smooth as what everyone thinks. Aside from the fact that I’m away from home, I have to deal with drastic changes and pressures in studying while working. Everyday is a new day to challenge myself but I always do my best to manage everything. With God’s help, I am able to maintain my grades and excel in our class. In fact , recently I was able to pass JLPT N3 in less than a year of studying here . The determination I have, the prayers and help from my mentors lead me to where I am right now. </p><p class="justify-center">今度更に勉強して、N2 を目指します。</p>
+            >As a newbie here in Japan, everything excites me. From riding a train to exploring around, from enjoying spring and fall to conquering summer and winter. Despite this amazing experience, my life here is not as smooth as what everyone thinks. Aside from the fact that I’m away from home, I have to deal with drastic changes and pressures in studying while working. Everyday is a new day to challenge myself but I always do my best to manage everything. With God’s help, I am able to maintain my grades and excel in our class. In fact , recently I was able to pass JLPT N3 in less than a year of studying here . The determination I have, the prayers and help from my mentors lead me to where I am right now. </p><p class="justify-center">今後更に勉強して、N2 を目指します。</p>
           </b-card-text>
           <template v-slot:footer>
             <footer class="blockquote-footer bigger-text font-weight-bold">Allenjen Ursabia<br>✨ アレンジェンさん</footer>
@@ -56,7 +56,7 @@
             >We thoroughly enjoyed our Japanese Style Caregiving lessons in 2 months with Sensei Hara. She is fun, encouraging and always prepared. She able to make us feel comfortable and welcome.</p>
             <p class="justify-center font-italic">
               We learned a lot about the basic knowledge of Caregiving (Kaigo) in 2 months. Although It is difficult to memorize the Chinese characters and nursing care terminology. We did to passed the 2 exam the nursing care skill evaluation test and nursing care japanese language evaluation test.
-              Of course its because of our beloved teachers Sensei Hara, Mr Seiji and also our sponsor Mr. Konoka. Its because of them were now successful for applying Japan as care worker.
+              Of course its because of our beloved teachers and staff. It is because of them were now successful for applying Japan as care worker.
               </p>
               <p>いろいろお世話になりました。</p>
             <p class="justify-center font-italic">
