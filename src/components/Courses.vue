@@ -15,7 +15,7 @@
       </div>
     </div>
 
-    <div class="mt-3">
+    <div class="my-3">
       <div class="row justify-content-center">
         <div class="col-xl-3 col-lg-3 col-md-6 col-xs-12 align-self-top pb-sm-3 pb-3">
           <b-card border-variant="light" class="text-center h-100">
@@ -27,8 +27,8 @@
               </h2>
             </template>
             <b-card-text class="px-4">
-              <p>Planning to visit Japan? Know enough Japanese to get around Japan and interact with the locals.</p>
-              <p>You will be taught the basic writing conventions (Hiragana and Katakana) and useful expressions in Japanese. You will also be given insights on the Japanese culture.</p>
+              <p>Planning to visit Japan next? Prepare yourself for your next destination by studying Japanese with us even as you travel Cebu.</p>
+              <p>Know enough Japanese to get around Japan and interact with the locals. You will be taught the basic writing conventions (Hiragana and Katakana) and useful expressions in Japanese. You will also be given insights on the Japanese culture.</p>
             </b-card-text>
             <template v-slot:footer>
               <p class="my-3">
@@ -115,12 +115,8 @@
         </div>
       </div>
     </div>
+    <h1 class="green-text font-weight-bold mt-5">Interested? Start learning Japanese now.</h1>
     <Modal />
-    <!-- <b-button
-      type="button"
-      class="btn btn-primary btn-lg p-3 my-5"
-      variant="success"
-    >Get in touch with us</b-button> -->
   </div>
 </template>
 <script>

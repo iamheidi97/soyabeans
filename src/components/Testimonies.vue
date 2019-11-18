@@ -3,6 +3,7 @@
   <div class="my-testimonies">
     <!-- <Sakura/> -->
     <h1 class="font-weight-bolder my-5 green-text mx-4">What some of our students had to say</h1>
+
     <div class="row justify-content-center mt-5">
 
       <div class="col-xl-4 col-lg-6 col-sm-12">
@@ -43,6 +44,12 @@
       </div>
       
     </div>
+    <div class="row mt-5">
+      <p class="col-6"></p>
+          <h2 class="green-text container text-center">特定技能介護日本語試験</h2>
+          <h2 class="green-text container">合格おめでとう！</h2>
+          <h4 class="green-text container font-weight-bold">Congratulations to our students <br>who passed the Nursing Care Japanese Language Evaluation Test!</h4>
+    </div>
     <div class="row justify-content-center mt-3">
         <div class="col-xl-4 col-lg-6 col-sm-12">
         <b-card img-src img-alt="Image" img-top class="h-100">
@@ -74,12 +81,7 @@
 </template>
 
 <script>
-// import Sakura from "./Sakura";
-// export default {
-//   components: {
-//     Sakura
-//   }
-// };
+
 </script>
 
 <style scoped>

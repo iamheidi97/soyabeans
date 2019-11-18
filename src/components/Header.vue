@@ -19,6 +19,24 @@
   </div>
 </template>
 <script>
+  
+  
+  export default {
+    // components: {
+    //   Name
+    // },
+    mounted() {
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+              e.preventDefault();
+
+              document.querySelector(this.getAttribute('href')).scrollIntoView({
+                  behavior: 'smooth'
+              });
+          });
+      });
+          },
+  }
 </script>
 <style scoped>
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
@@ -43,10 +61,9 @@
   box-shadow: 3px 2px 0px #4f9e37;
 }
 .my-header {
-  position: absolute;
-  top: 0;
+  position: fixed;
   box-sizing: border-box;
-  
+  overflow: hidden;
 }
 label {
   padding: 0;
@@ -111,15 +128,8 @@ a.nav-link:hover {
   /* color: #54aa67; */
   color: #DCFFCC;
 }
-.nav-link:hover{
+.nav-link:hover{                           
   color: #DCFFCC !important;
-}
-/* .text1 {
-  transform: translate(70%, -55%);
-  color: #fff9ba;
-  background-color: transparent;
-  font-weight: bold;
-  font-size: 3.5rem;
-  text-shadow: 4px 4px 0px #4f9e37;
-} */
+}   
+
 </style>

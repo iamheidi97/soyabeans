@@ -79,7 +79,7 @@
   padding-bottom: 7rem;
   padding-top: 7rem;
   width: 100%;
-  background-image: url("../assets/yellowskewedrectangle.svg");
+  background-image: url("../assets/yellowskewed.svg");
   background-repeat: no-repeat;
   background-size:cover;
 }

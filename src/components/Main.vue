@@ -1,5 +1,6 @@
 <template>
   <div>
+    
     <Header id="header" class="higher-z"/>
     <Home id="home" class="upperslight1"/>
     <Why id="why"/>
@@ -7,7 +8,6 @@
     <Courses id="courses"/>
     <Faqs id="faqs"/>
     <Footer id="contact"/>
-    <go-top bg-color="#23A262" fg-color="#FFFBE5"></go-top>
   </div>
 </template>
 <script>
@@ -18,11 +18,10 @@ import Testimonies from "./Testimonies";
 import Courses from "./Courses";
 import Faqs from "./Faqs";
 import Footer from "./Footer";
-import GoTop from '@inotom/vue-go-top';
 
 export default {
   components: {
-    GoTop,
+    
     Header,
     Home,
     Why,

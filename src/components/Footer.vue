@@ -48,8 +48,6 @@
 
 </script>
 <style scoped>
-.my-footer{
-}
 
 .footer-bg {
   background-image: linear-gradient(0deg, #fff1c6 50%, #ffffff 100%);

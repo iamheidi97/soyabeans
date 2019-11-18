@@ -1,11 +1,16 @@
 <template>
   <div id="app">
+    
     <Main />
+    <back-to-top text="Back to top">
+      <button type="button" class="btn btn-success btn-to-top"><i class="fa fa-chevron-up"></i></button>
+    </back-to-top>
   </div>
 </template>
 
 <script>
 import Main from "./components/Main.vue";
+
 
 export default {
   name: "app",
@@ -31,12 +36,22 @@ export default {
   overflow: hidden;
   padding: 0;
   margin: 0;
-  color: #2c3e50;
+  color: #23A262;
 }
-html{
+/* html{
   scroll-behavior:smooth
-  }
+  } */
+.btn-to-top {
+  /* width: 60px;
+  height: 60px;
+  padding: 10px 16px;
+  border-radius: 50%; */
+  font-size: 1.3em;
+  line-height: 0.9em;
+  padding: 1rem;
+  background-color: #23A262;
 
+}
 .btn-success {
   background-color: #23a262;
   border-color: #23a262;

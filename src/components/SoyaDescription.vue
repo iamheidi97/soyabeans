@@ -8,8 +8,10 @@
         </blockquote>
 
         <div class="row my-5 justify-content-center">
-            <div class="col-8 mt-5">
-                <p><span class="green-text font-weight-bold">Soya Beans</span> is very willing to help you especially with your dream of traveling, studying or working in Japan.</p>
+            <div class="col-7 mt-5">
+                <img class="img-fluid w-50" src="../assets/soyalogo.png" />
+                <p class="green-text font-weight-bold display-5">Soya Beans<br>Japanese Language School</p>
+                <p class="smaller"> is very willing to help you especially with your dream of traveling, studying or working in Japan.</p>
             </div>
         </div>
     </div>
@@ -22,6 +24,7 @@
 </script>
 
 <style scoped>
+
     @media (max-width: 576px) {
         h3{
             font-size: 1.3rem;
@@ -34,8 +37,10 @@
       margin-top: 1em;
       z-index: 10;
     }
-
-    span{
-        font-size: 2em;
+    .smaller {
+        font-size: 1.2rem;
+    }
+    .display-5{
+        font-size: 2.4em;
     }
 </style>
