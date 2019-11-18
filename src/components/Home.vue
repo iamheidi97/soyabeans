@@ -227,7 +227,7 @@ p.text1 {
   transform-origin: top right;
 }
 
-@media (max-width: 1060px) {
+/* @media (max-width: 1060px) {
   p.text1{
     font-size: 3em;
   }
@@ -236,14 +236,13 @@ p.text1 {
   }
   p.text3{
 
-  } */
+  } 
   p.text4{
     font-size: 2.6em;
   }
   p.text5{
     font-size: 1.8em;
-  }
-}
+  } */
 
 @media (max-width: 930px) {
   p.text1{
@@ -256,30 +255,11 @@ p.text1 {
     font-size: 2rem;
   }
   p.text5{
-    font-size: 1.5rem;
-  }
-  p.text2 {
-    font-size: 1.6rem !important;
-    top:36%;
-  }
-}
-
-@media (max-width: 767.5px) {
-  p.text1{
     font-size: 2rem;
   }
-  p.text2{
+  p.text2 {
     font-size: 2rem !important;
     top:36%;
-  }
-  /* p.text3{
-
-  }
-  p.text4{
-    
-  } */
-  p.text5 {
-    font-size: 2em;
   }
 }
 
@@ -289,17 +269,17 @@ p.text1 {
     font-size:2rem!important;
   }
   p.text2{
-    font-size:1.5rem!important;
+    font-size:2rem!important;
     text-shadow: 1px 1px 0px rgb(255, 255, 244);
   }
   .emp-t2 {
     text-shadow: 1px 1px 0px rgb(255, 255, 214);
   }
   p.text3{
-    font-size:1.5rem!important;
+    font-size:2rem!important;
   }
   .emp-t3 {
-    font-size:1.5rem!important;
+    font-size:2rem!important;
   }
   p.text4{
     text-shadow: 2px 2px 0px #fff9ba;
@@ -310,7 +290,7 @@ p.text1 {
     text-shadow: 1px 1px 0px #23A262;
   }
   p.text5 {
-    font-size:1.5rem!important;
+    font-size:2rem!important;
   }
   .emp-t5 {
     text-shadow: 1px 1px 0px #b4b4b4 !important;
